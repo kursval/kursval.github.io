@@ -1,0 +1,37 @@
+<!-- Välj program -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" id="pick-program-button" data-toggle="dropdown" aria-expanded="false">
+        Välj program <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" id="program-picker" role="menu">
+        <% _.each(programs, function (p) { %>
+            <li><a href="#" data-id="<%=p.id%>"><%=p.name%></a></li>
+        <% }); %>
+    </ul>
+</div>
+<!-- /Välj program -->
+
+<!-- Välj inriktning -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" id="pick-special-button" data-toggle="dropdown" aria-expanded="false">
+        Välj inriktning <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" id="special-picker" role="menu">
+        
+        <li><a href="#" data-id="all">Alla inriktningar</a></li>
+        <% _.each(specializations, function (s) { %>
+            <li><a href="#" data-id="<%=s.shortname%>"><%=s.fullname%></a></li>
+        <% }); %>
+
+    </ul>
+</div>
+<!-- /Välj inriktning -->
+
+<div style="padding:15px" class="row" id="text-filter">
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon" id="sizing-addon1">
+            <span class="glyphicon glyphicon-filterglyphicon glyphicon-search"></span>
+        </span>
+        <input type="text" class="form-control" placeholder="Filtrera kurser" aria-describedby="sizing-addon1">
+    </div>
+</div>
