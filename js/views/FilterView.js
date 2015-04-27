@@ -2,11 +2,11 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'controller/Controller',
+  'CoursePicker',
   'text!../templates/HeaderTemplate.html',
   'bootstrap',
   'jquery-ui'
-], function ( $, _, Backbone, Controller, Template) {
+], function ( $, _, Backbone, CoursePicker, Template) {
 
 	var FilterView = Backbone.View.extend({
 	    el:             '#header',
@@ -55,9 +55,9 @@ define([
 	        var template = _.template(Template);
 	        this.$el.html(template({
 	            'specializations': specials,
-	            'programs' : Controller.programList
+	            'programs' : CoursePicker.programList
 	        }));
-	        var p = _.findWhere(Controller.programList, { 'id': Controller.programName});
+	        var p = _.findWhere(CoursePicker.programList, { 'id': CoursePicker.programName});
 	        if (p) {
 	            $('#pick-program-button').data(p.id);
 	            $('#pick-program-button').text(p.name + ' ');

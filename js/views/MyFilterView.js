@@ -3,9 +3,9 @@ define([
   'underscore',
   'backbone', 
   'views/FilterView',
-  'controller/Controller',
+  'CoursePicker',
   'text!../templates/MyHeaderTemplate.html'
-], function ( $, _, Backbone, FilterView, Controller, Template) {
+], function ( $, _, Backbone, FilterView, CoursePicker, Template) {
 
 	var MyFilterView = FilterView.extend({
 	    el:       '#header',
@@ -23,7 +23,7 @@ define([
 	        var shortname = $(e.currentTarget).data('id');
 	        
 	        $('#pick-my-program-button').text(chosenProgram + ' ');
-	        $('#pick--myprogram-button').append($('<span class="caret"></span>'));
+	        $('#pick-my-program-button').append($('<span class="caret"></span>'));
 	        
 	        Backbone.trigger('filterMyProgram', shortname);
 	    },
@@ -35,7 +35,7 @@ define([
 	            'schedule' : this.schedule
 	        }));
 	        
-	        var p = _.findWhere(Controller.programList, { 'id': Controller.myProgram});
+	        var p = _.findWhere(CoursePicker.programList, { 'id': CoursePicker.myProgram});
 	        if (p) {
 	            $('#pick-my-program-button').data(p.id);
 	            $('#pick-my-program-button').text(p.name + ' ');

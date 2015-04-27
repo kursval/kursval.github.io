@@ -2,8 +2,9 @@ define([
   'jquery',
   'underscore',
   'backbone',
-  'views/CourseView' 
-], function ( $, _, Backbone, CourseView) {
+  'views/CourseView',
+  'CoursePicker'
+], function ( $, _, Backbone, CourseView, CoursePicker) {
 
 	var MyCourseListView = Backbone.View.extend({
 	    
@@ -28,7 +29,7 @@ define([
 	    
 	    renderYear: function(year) {
 
-	        var activeProgram = _.findWhere(this.schedule, {'programId': Controller.myProgram});
+	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.myProgram});
 	        
 	        if(!activeProgram)
 	            return this;

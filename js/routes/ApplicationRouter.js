@@ -7,13 +7,9 @@ define([
   'views/CourseListView',
   'views/MyCourseListView',
   'collections/CourseCollection',
-  'controller/Controller',
-  'json!../../programs/datateknik.json',
-  'json!../../programs/kemiteknik.json',
-  'json!../../programs/fysik.json',
-  'json!../../programs/elektroteknik.json',
+  'CoursePicker'
 
-], function ( $, _, Backbone, FilterView, MyFilterView, CourseListView, MyCourseListView, CourseCollection, Controller, data, kemi, fysik, elektro) {
+], function ( $, _, Backbone, FilterView, MyFilterView, CourseListView, MyCourseListView, CourseCollection, CoursePicker) {
 	
 	var ApplicationRouter = Backbone.Router.extend({
 	    
@@ -27,17 +23,12 @@ define([
 		},
 	    
 	    myProgramChange: function (program) {
-	        Controller.myProgram = program;
+	        CoursePicker.changeMyProgram(program);
 	        this.myCourses();
 	    },
 	    
 	    removeMyCourse: function (courseId, year) {
-	        var activeProgram = _.findWhere(Controller.schedule, {'programId': Controller.myProgram});
-	        if (year === 4) {
-	            activeProgram.year4.get(courseId).destroy();
-	        } else if (year === 5) {
-	            activeProgram.year5.get(courseId).destroy();
-	        }
+	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
 	    },
 	    
@@ -52,24 +43,7 @@ define([
 	    },
 	    
 	    programChange: function (program) {
-	        switch(program) {
-	            case 'data':
-	                Controller.programData = data;
-	                break;
-	            case 'elektro':
-	                Controller.programData = elektro;
-	                break;
-	            case 'fysik':
-	                Controller.programData = fysik;
-	                break;
-	            case 'kemi':
-	                Controller.programData = kemi;
-	                break;
-	            default:
-	                program = '';
-	                break;
-	        }
-	        Controller.programName = program;
+	        CoursePicker.switchProgram(program);
 	        this.filterParams.spec = '';
 	        this.filterParams.text = '';
 	        this.init();
@@ -92,18 +66,18 @@ define([
 	    
 	    myCourses: function () {        
 	        myFilterView = new MyFilterView({
-	            'schedule' : Controller.schedule
+	            'schedule' : CoursePicker.schedule
 	        });
 	        myFilterView.render();
 
 	        var myCourseListView = new MyCourseListView({ //räcker med en gång...
-			    'schedule': Controller.schedule
+			    'schedule': CoursePicker.schedule
 			});	        
 	        myCourseListView.render();
 	    },
 
 		init: function () {
-	        courses = new CourseCollection(Controller.programData);
+	        courses = new CourseCollection(CoursePicker.programData);
 	        filterView = new FilterView({
 	            collection: courses,
 	        });
