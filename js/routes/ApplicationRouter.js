@@ -13,6 +13,12 @@ define([
 	
 	var ApplicationRouter = Backbone.Router.extend({
 	    
+		routes: {
+			''           : 'allCourses',
+	        'allCourses' : 'allCourses',
+	        'myCourses'  : 'myCourses',
+		},
+
 		initialize: function(options) {
 	        this.listenTo(Backbone, 'filterSpec', this.specChange);
 	        this.listenTo(Backbone, 'filterText', this.textChange);
@@ -21,6 +27,11 @@ define([
 	        this.listenTo(Backbone, 'removeMyCourse', this.removeMyCourse);
 			Backbone.history.start();
 		},
+	    
+	    filterParams: {
+	        spec: '',
+	        text: ''
+	    },
 	    
 	    myProgramChange: function (program) {
 	        CoursePicker.changeMyProgram(program);
@@ -34,12 +45,12 @@ define([
 	    
 	    specChange: function(spec) {
 	        this.filterParams.spec = spec;
-	        this.renderIt();
+	        this.renderFilteredCollection();
 	    },
 	    
 	    textChange: function(text) {
 	        this.filterParams.text = text;   
-	        this.renderIt();
+	        this.renderFilteredCollection();
 	    },
 	    
 	    programChange: function (program) {
@@ -48,19 +59,8 @@ define([
 	        this.filterParams.text = '';
 	        this.init();
 	    },
-	    
-	    filterParams: {
-	        spec: '',
-	        text: ''
-	    },
-	    
-		routes: {
-			''           : 'init',
-	        'allCourses' : 'init',
-	        'myCourses'  : 'myCourses',
-		},
-	    
-	    renderIt: function () {
+	    	    
+	    renderFilteredCollection: function () {
 	        courseListView.render(this.filterParams.spec, this.filterParams.text);
 	    },
 	    
@@ -76,7 +76,7 @@ define([
 	        myCourseListView.render();
 	    },
 
-		init: function () {
+		allCourses: function () {
 	        courses = new CourseCollection(CoursePicker.programData);
 	        filterView = new FilterView({
 	            collection: courses,
