@@ -10,6 +10,10 @@
 	max-width: 960px;
 }
 
+select.form-control {
+	margin: 5px;
+}
+
 body { 
     padding-top: 50px; 
 }
