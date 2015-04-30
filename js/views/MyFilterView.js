@@ -11,37 +11,34 @@ define([
 	    el:       '#header',
 	    
 	    events: {
-	        'click ul#my-program-picker li a': 'changeMyProgram',
+	        'change #my-program-selector': 'changeMyProgram',
 	    },
 	    
 	    initialize: function (args) {
 	        this.schedule = args.schedule;
 	    },
 	    
-	    changeMyProgram: function(e) {
-	        var chosenProgram = $(e.currentTarget).text();
-	        var shortname = $(e.currentTarget).data('id');
-	        
-	        $('#pick-my-program-button').text(chosenProgram + ' ');
-	        $('#pick-my-program-button').append($('<span class="caret"></span>'));
-	        
+	    changeMyProgram: function (e) {
+	        var shortname = $(e.currentTarget).val();
 	        Backbone.trigger('filterMyProgram', shortname);
+	    },
+
+	    renderProgram: function() {
+	    	var template = _.template(Template);
+	        this.$('.form-inline').html(template({
+	            'schedule' : this.schedule
+	        }));
+	    	
+			if (CoursePicker.myProgram) {
+	    		this.$('#my-program-selector').val(CoursePicker.myProgram);
+	    	}
+
+			return this;
 	    },
 	    
 	    render: function () {
-	        this.$el.empty();
-	        var template = _.template(Template);
-	        this.$el.append(template({
-	            'schedule' : this.schedule
-	        }));
-	        
-	        var p = _.findWhere(CoursePicker.programList, { 'id': CoursePicker.myProgram});
-	        if (p) {
-	            $('#pick-my-program-button').data(p.id);
-	            $('#pick-my-program-button').text(p.name + ' ');
-	            $('#pick-my-program-button').append($('<span class="caret"></span>'));        
-	        }
-	        
+	    	this.$('#search').empty();
+	        return this.renderProgram();
 	    }
 	    
 	});

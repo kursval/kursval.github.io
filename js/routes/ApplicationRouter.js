@@ -29,16 +29,18 @@ define([
 		},
 	    
 	    filterParams: {
-	        spec: '',
+	        spec: 'all',
 	        text: ''
 	    },
 	    
 	    myProgramChange: function (program) {
+	    	// console.log('____ 4');
 	        CoursePicker.changeMyProgram(program);
 	        this.myCourses();
 	    },
 	    
 	    removeMyCourse: function (courseId, year) {
+	    	// console.log('____ 5');
 	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
 	    },
@@ -46,25 +48,39 @@ define([
 	    specChange: function(spec) {
 	        this.filterParams.spec = spec;
 	        this.renderFilteredCollection();
+	        // console.log('____ 1');
 	    },
 	    
 	    textChange: function(text) {
 	        this.filterParams.text = text;   
 	        this.renderFilteredCollection();
+	        // console.log('____ 2');
 	    },
 	    
 	    programChange: function (program) {
+	    	// console.log('____ 3');
 	        CoursePicker.switchProgram(program);
-	        this.filterParams.spec = '';
+	        this.filterParams.spec = 'all';
 	        this.filterParams.text = '';
-	        this.init();
+
+	        this.allCourses();
 	    },
 	    	    
 	    renderFilteredCollection: function () {
 	        courseListView.render(this.filterParams.spec, this.filterParams.text);
 	    },
 	    
-	    myCourses: function () {        
+	    myCourses: function () {
+
+	    	if(!(typeof myCourseListView === 'undefined' || myCourseListView === null)) {
+	        	myCourseListView.remove(); // should have another name...
+	        }
+
+	        if(!(typeof myFilterView === 'undefined' || myFilterView === null)) {
+	        	myFilterView.undelegateEvents();
+	        }
+
+
 	        myFilterView = new MyFilterView({
 	            'schedule' : CoursePicker.schedule
 	        });
@@ -77,10 +93,21 @@ define([
 	    },
 
 		allCourses: function () {
+
+			if(!(typeof courseListView === 'undefined' || courseListView === null)) {
+	        	courseListView.remove(); // should have another name...
+	        }
+
+	        if(!(typeof filterView === 'undefined' || filterView === null)) {
+	        	filterView.undelegateEvents();
+	        }
+
+
 	        courses = new CourseCollection(CoursePicker.programData);
 	        filterView = new FilterView({
 	            collection: courses,
 	        });
+
 	        courseListView = new CourseListView({
 	            collection: courses
 	        });

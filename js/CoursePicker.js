@@ -1,3 +1,5 @@
+// BUG: Inriktningar ändras inte
+
 define([
   'jquery',
   'underscore',
@@ -52,6 +54,8 @@ define([
 	            case 'kemi':
 	                this.programData = kemi;
 	                break;
+	            case 'none':
+	            	this.programData = [];
 	            default:
 	                program = '';
 	                break;

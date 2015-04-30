@@ -3,20 +3,22 @@ define([
   'underscore',
   'backbone',
   'CoursePicker',
-  'text!../templates/HeaderTemplate.html',
+  'text!../templates/ProgramSelectorTemplate.html',
+  'text!../templates/SpecialSelectorTemplate.html',
+  'text!../templates/SearchFilterTemplate.html',
   'bootstrap',
   'jquery-ui'
-], function ( $, _, Backbone, CoursePicker, Template) {
+], function ( $, _, Backbone, CoursePicker, ProgramTemplate, SpecialTemplate, SearchTemplate) {
 
 	var FilterView = Backbone.View.extend({
 	    el:             '#header',
 	    
 	    events: {
-	        'keyup #text-filter .form-control':        'keyboardInput',
-	        'click ul#program-picker li a':   'changeProgram',
-	        'click ul#special-picker li a':   'changeSpecial',
+	        'keyup #text-filter .form-control': 'keyboardInput',
+	        'change #program-selector': 		'changeProgram',
+	        'change #special-selector': 		'changeSpecial'
 	    },
-	    
+
 	    initialize: function () {
 	        
 	    },
@@ -27,22 +29,13 @@ define([
 	    },
 
 	    changeProgram: function (e) {
-	        var chosenProgram = $(e.currentTarget).text();
-	        var shortname = $(e.currentTarget).data('id');
-	        $('#pick-program-button').text(chosenProgram + ' ');
-	        $('#pick-program-button').append($('<span class="caret"></span>'));
-	        
+	        var shortname = $(e.currentTarget).val();
+	        var chosenProgram = e.target.options[e.target.selectedIndex].text;
 	        Backbone.trigger('filterProgram', shortname);
 	    },
 	    
 	    changeSpecial: function (e) {
-
-	        var chosenSpecial = $(e.currentTarget).text();
-	        var shortname = $(e.currentTarget).data('id');
-	        
-	        $('#pick-special-button').text(chosenSpecial + ' ');
-	        $('#pick-special-button').append($('<span class="caret"></span>'));
-	        
+	        var shortname = $(e.currentTarget).val();
 	        Backbone.trigger('filterSpec', shortname);
 	    },
 	    
@@ -50,19 +43,39 @@ define([
 	        this.$el.empty();
 	    },
 
-	    render: function () {
-	        var specials = this.collection.getAllSpecials();
-	        var template = _.template(Template);
-	        this.$el.html(template({
-	            'specializations': specials,
+	    renderProgram: function() {
+	    	var template = _.template(ProgramTemplate);
+			this.$('.form-inline').append(template({
 	            'programs' : CoursePicker.programList
 	        }));
-	        var p = _.findWhere(CoursePicker.programList, { 'id': CoursePicker.programName});
-	        if (p) {
-	            $('#pick-program-button').data(p.id);
-	            $('#pick-program-button').text(p.name + ' ');
-	            $('#pick-program-button').append($('<span class="caret"></span>'));        
-	        }
+	    	
+			if (CoursePicker.programName)
+	    		this.$('#program-selector').val(CoursePicker.programName);
+
+			return this;
+	    },
+
+	    renderSpecial: function() {
+	    	this.$('special-selector').empty();
+	    	var specials = this.collection.getAllSpecials();
+	    	var template = _.template(SpecialTemplate);
+			this.$('.form-inline').append(template({
+	            'specializations': specials,
+	        }));
+			return this;
+	    },
+
+	    renderSearch: function() {
+	    	var template = _.template(SearchTemplate);
+			this.$('#search').html(template({}));
+			return this;
+	    },
+
+	    render: function () {
+	    	this.$('.form-inline').empty();
+	        this.renderProgram();
+	        this.renderSpecial();
+	        this.renderSearch();
 	        
 	        return this;
 	    }

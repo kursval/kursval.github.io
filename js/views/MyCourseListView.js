@@ -7,8 +7,7 @@ define([
 ], function ( $, _, Backbone, CourseView, CoursePicker) {
 
 	var MyCourseListView = Backbone.View.extend({
-	    
-	    el: '#main-content',
+	    el: '.main-content',
 	    
 	    year4Title: '<div class="page-header"><h2>Läsår 4</h2></div>',
 	    year5Title: '<div class="page-header"><h2>Läsår 5</h2></div>',

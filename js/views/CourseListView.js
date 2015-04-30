@@ -6,19 +6,24 @@ define([
 ], function ( $, _, Backbone, CourseView) {
 
 	var CourseListView = Backbone.View.extend({
-	    el: '#main-content',
+	    el: '.main-content',
 	    
 	    initialize: function () {
 	        this.subViews = []
 	    },
-	    
+
 	    remove: function () {
 	        _.each(this.subViews, function (v) {
 	            v.remove();
+				v.unbind();
 	        });
 	        
 	        this.subViews = [];
-	        this.remove();
+	        this.undelegateEvents();
+	    },
+
+	    emptyView: function () {
+	        this.$el.empty();
 	    },
 	    
 	    filterOnSpecial: function () {

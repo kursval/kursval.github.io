@@ -13,8 +13,7 @@ define([
 	    },
 	    
 	    filterSpecial: function (list, activeSpec) {
-	        
-	        if (activeSpec === 'all') {
+	        if (activeSpec === 'all' || activeSpec === '' || !activeSpec) {
 	            return list;   
 	        }
 	        
@@ -49,6 +48,12 @@ define([
 	    customFilter: function (activeSpec, activeText) {
 	        if (!activeText) {
 	            activeText = '';   
+	        }
+	        if (!activeSpec) {
+	        	activeSpec = 'all';
+	        }
+	        if (activeSpec === '') {
+	        	activeSpec = 'all';
 	        }
 	        var list = this.map(function (c) { return c; });
 	        list = this.filterSpecial(list, activeSpec);

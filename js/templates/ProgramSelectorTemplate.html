@@ -1,0 +1,6 @@
+<select class="form-control" id="program-selector">
+	<option value="none">Välj program</option>
+	<% _.each(programs, function (p) { %>
+	<option value="<%=p.id%>"><%=p.name%></option>
+	<% }); %>
+</select>
