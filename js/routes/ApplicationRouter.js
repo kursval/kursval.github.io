@@ -66,7 +66,6 @@ define([
 	        }
 
 	        if(!(typeof filterView === 'undefined' || filterView === null)) {
-	        	console.log('empty filterview');
 	        	filterView.emptyView();
 	        }
 
@@ -94,7 +93,6 @@ define([
 	        courseListView = new CourseListView({
 	            collection: courses
 	        });
-	        console.log('render new filterView');
 	        filterView.render();
 	        courseListView.render(this.filterParams.spec, this.filterParams.text);
 	    },

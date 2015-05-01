@@ -1,16 +1,19 @@
 <div class="container">
 	<div class="panel panel-default">
 		<div class="panel-heading">
-			<h2>Läsår <%=studyYear%> <small>Antal poäng: XY hp</small></h2>
+			<h2>Läsår <%=studyYear%> <small>Antal poäng: <%=totalCredits%> hp</small></h2>
 		</div>
 		<div class="panel-body" id="header-year-<%=studyYear%>">
 			<!-- LIST ALL COURSES INSIDE HERE -->
 		</div>
 		<div class="panel-footer">
-			<span class="label label-default">Lp 1: XY hp</span>
-			<span class="label label-default">Lp 2: XY hp</span>
-			<span class="label label-default">Lp 3: XY hp</span>
-			<span class="label label-default">Lp 4: XY hp</span>
+			<span class="label label-default">Lp 1: <%=studyPeriodsCredits[0]%> hp</span>
+			<span class="label label-default">Lp 2: <%=studyPeriodsCredits[1]%> hp</span>
+			<span class="label label-default">Lp 3: <%=studyPeriodsCredits[2]%> hp</span>
+			<span class="label label-default">Lp 4: <%=studyPeriodsCredits[3]%> hp</span>
+			<!--<p>
+			<i style="color:red"><b>Obs:</b> Poängen avser medeltal/läsperiod.</i>
+			</p>-->
 		</div>
 	</div>
 </div>

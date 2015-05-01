@@ -26,12 +26,13 @@ define([
 	    
 	    renderYear: function(year) {
 	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
-	        
+
 	        if(!activeProgram)
 	            return this;
 	        var fragment = document.createDocumentFragment();
 	        var self = this;
 	        var activeYear;
+
 	        if (year === 4) {
 	            activeYear = activeProgram.year4;
 	        } else {
@@ -51,9 +52,29 @@ define([
 	    },
 
 	    renderHeader: function (year) {
+	    	var activeYear;
+			var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
+			var credits = 0; 
+			var studyPeriodsNbr = [1,2,3,4];
+			var studyPeriodsCredits = [0,0,0,0];
+
+			if (activeProgram) {
+				if (year === 4) {
+		            activeYear = activeProgram.year4;
+		        } else {
+		            activeYear = activeProgram.year5;
+		        }
+	        	credits = activeYear.getTotalCredits();
+	        	studyPeriodsCredits = _.map(studyPeriodsNbr, function (nbr) {
+	        		return activeYear.getTotalSpCredits(nbr);
+	        	})
+
+			}
 	    	var template = _.template(Template);
 			this.$el.append(template({
-				'studyYear': year
+				'studyYear': year,
+				'totalCredits': credits,
+				'studyPeriodsCredits': studyPeriodsCredits
 			}));
 			return this;
 	    },
