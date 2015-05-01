@@ -68,11 +68,11 @@ define([
     	},
 
     	removeMyCourse: function(courseId, year) {
-    		var activeProgram = _.findWhere(this.schedule, {'programId': this.myProgram});
+    		var activeProgram = _.findWhere(this.schedule, {'programId': this.programName});
 	        if (year === 4) {
-	            this.activeProgram.year4.get(courseId).destroy();
+	            activeProgram.year4.get(courseId).destroy();
 	        } else if (year === 5) {
-	            this.activeProgram.year5.get(courseId).destroy();
+	            activeProgram.year5.get(courseId).destroy();
 	        }
     	}
 

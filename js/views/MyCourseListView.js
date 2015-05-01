@@ -44,7 +44,6 @@ define([
 	        var sortedCourses = activeYear.sortBy(function (c) {
 	        	return c.getSp()[0];
 	        });
-	        console.log(sortedCourses);
 
 	        new CourseCollection(sortedCourses).each(function (course) {
 	            var courseView = new CourseView({
@@ -55,7 +54,7 @@ define([
 	            self.subViews.push(courseView);
 	            fragment.appendChild(courseView.render().el);
 	        });
-	        return fragment;
+	        return $(fragment).clone(true);
 	    },
 
 	    renderHeader: function (year) {
