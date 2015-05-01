@@ -16,4 +16,21 @@ select.form-control {
 
 body { 
     padding-top: 50px; 
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 100px;
+  
+  background-color: #f5f5f5;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
 }

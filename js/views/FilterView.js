@@ -40,7 +40,12 @@ define([
 	    },
 	    
 	    emptyView: function () {
-	        this.$el.empty();
+	    	this.$('.form-inline').empty();
+	    	//this.$('#special-selector').empty();
+	    	//this.$('#program-selector').empty();
+	    	this.$('#search').empty();
+	    	//this.$('.form-inline').html('<h1>Kursplan <small>Översikt</h1>');
+	        //this.$el.empty();
 	    },
 
 	    renderProgram: function() {

@@ -33,11 +33,11 @@ define([
 	        text: ''
 	    },
 	    
-	    myProgramChange: function (program) {
+	    /*myProgramChange: function (program) {
 	    	// console.log('____ 4');
 	        CoursePicker.changeMyProgram(program);
 	        this.myCourses();
-	    },
+	    },*/
 	    
 	    removeMyCourse: function (courseId, year) {
 	    	// console.log('____ 5');
@@ -76,15 +76,16 @@ define([
 	        	myCourseListView.remove(); // should have another name...
 	        }
 
-	        if(!(typeof myFilterView === 'undefined' || myFilterView === null)) {
-	        	myFilterView.undelegateEvents();
+	        if(!(typeof filterView === 'undefined' || filterView === null)) {
+	        	console.log('empty filterview');
+	        	filterView.emptyView();
 	        }
 
-
+			/*
 	        myFilterView = new MyFilterView({
 	            'schedule' : CoursePicker.schedule
 	        });
-	        myFilterView.render();
+	        myFilterView.render();*/
 
 	        var myCourseListView = new MyCourseListView({ //räcker med en gång...
 			    'schedule': CoursePicker.schedule

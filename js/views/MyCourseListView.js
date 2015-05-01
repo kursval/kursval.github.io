@@ -3,14 +3,12 @@ define([
   'underscore',
   'backbone',
   'views/CourseView',
-  'CoursePicker'
-], function ( $, _, Backbone, CourseView, CoursePicker) {
+  'CoursePicker',
+  'text!../templates/StudyYearHeaderTemplate.html'
+], function ( $, _, Backbone, CourseView, CoursePicker, Template) {
 
 	var MyCourseListView = Backbone.View.extend({
-	    el: '.main-content',
-	    
-	    year4Title: '<div class="page-header"><h2>Läsår 4</h2></div>',
-	    year5Title: '<div class="page-header"><h2>Läsår 5</h2></div>',
+	    el: '#main-content',
 	    
 	    initialize: function (args) {
 	        this.schedule = args.schedule;
@@ -27,8 +25,7 @@ define([
 	    },
 	    
 	    renderYear: function(year) {
-
-	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.myProgram});
+	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
 	        
 	        if(!activeProgram)
 	            return this;
@@ -50,17 +47,26 @@ define([
 	            self.subViews.push(courseView);
 	            fragment.appendChild(courseView.render().el);
 	        });
-	        this.$el.append(fragment);
-	        return this;
+	        return fragment;
+	    },
+
+	    renderHeader: function (year) {
+	    	var template = _.template(Template);
+			this.$el.append(template({
+				'studyYear': year
+			}));
+			return this;
 	    },
 	        
 	        
 	    render: function() {
 	        this.$el.empty();
-	        this.$el.append(this.year4Title);
-	        this.$el.append(this.renderYear(4));
-	        this.$el.append(this.year5Title);
-	        this.$el.append(this.renderYear(5));
+	        this.renderHeader(4);
+	        this.$el.append('<div class="container" id="year4"></div>');
+	        this.$('#header-year-4').append(this.renderYear(4));
+	        this.renderHeader(5);
+	        this.$el.append('<div class="container" id="year5"></div>');
+	        this.$('#header-year-5').append(this.renderYear(5));
 	        return this;
 	    },
 	    
