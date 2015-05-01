@@ -41,7 +41,12 @@ define([
 	            activeYear = activeProgram.year5;
 	        }
 
-	        activeYear.each(function (course) {
+	        var sortedCourses = activeYear.sortBy(function (c) {
+	        	return c.getSp()[0];
+	        });
+	        console.log(sortedCourses);
+
+	        new CourseCollection(sortedCourses).each(function (course) {
 	            var courseView = new CourseView({
 	                model: course,
 	                type: 'myCourse',
