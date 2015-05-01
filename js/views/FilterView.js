@@ -6,9 +6,10 @@ define([
   'text!../templates/ProgramSelectorTemplate.html',
   'text!../templates/SpecialSelectorTemplate.html',
   'text!../templates/SearchFilterTemplate.html',
+  'text!../templates/FilterInitTemplate.html',
   'bootstrap',
   'jquery-ui'
-], function ( $, _, Backbone, CoursePicker, ProgramTemplate, SpecialTemplate, SearchTemplate) {
+], function ( $, _, Backbone, CoursePicker, ProgramTemplate, SpecialTemplate, SearchTemplate, FilterInitTemplate) {
 
 	var FilterView = Backbone.View.extend({
 	    el:             '#header',
@@ -40,12 +41,12 @@ define([
 	    },
 	    
 	    emptyView: function () {
-	    	this.$('.form-inline').empty();
+	    	//this.$('.form-inline').empty();
 	    	//this.$('#special-selector').empty();
 	    	//this.$('#program-selector').empty();
-	    	this.$('#search').empty();
+	    	//this.$('#search').empty();
 	    	//this.$('.form-inline').html('<h1>Kursplan <small>Översikt</h1>');
-	        //this.$el.empty();
+	        this.$el.empty();
 	    },
 
 	    renderProgram: function() {
@@ -76,8 +77,9 @@ define([
 			return this;
 	    },
 
-	    render: function () {
-	    	this.$('.form-inline').empty();
+	    render: function () {	    	
+	    	this.$el.html(_.template(FilterInitTemplate)());
+	    	//this.$('.form-inline').empty();
 	        this.renderProgram();
 	        this.renderSpecial();
 	        this.renderSearch();

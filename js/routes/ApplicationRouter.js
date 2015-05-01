@@ -3,13 +3,12 @@ define([
   'underscore',
   'backbone', 
   'views/FilterView',
-  'views/MyFilterView',
   'views/CourseListView',
   'views/MyCourseListView',
   'collections/CourseCollection',
   'CoursePicker'
 
-], function ( $, _, Backbone, FilterView, MyFilterView, CourseListView, MyCourseListView, CourseCollection, CoursePicker) {
+], function ( $, _, Backbone, FilterView, CourseListView, MyCourseListView, CourseCollection, CoursePicker) {
 	
 	var ApplicationRouter = Backbone.Router.extend({
 	    
@@ -33,14 +32,7 @@ define([
 	        text: ''
 	    },
 	    
-	    /*myProgramChange: function (program) {
-	    	// console.log('____ 4');
-	        CoursePicker.changeMyProgram(program);
-	        this.myCourses();
-	    },*/
-	    
 	    removeMyCourse: function (courseId, year) {
-	    	// console.log('____ 5');
 	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
 	    },
@@ -48,17 +40,14 @@ define([
 	    specChange: function(spec) {
 	        this.filterParams.spec = spec;
 	        this.renderFilteredCollection();
-	        // console.log('____ 1');
 	    },
 	    
 	    textChange: function(text) {
 	        this.filterParams.text = text;   
 	        this.renderFilteredCollection();
-	        // console.log('____ 2');
 	    },
 	    
 	    programChange: function (program) {
-	    	// console.log('____ 3');
 	        CoursePicker.switchProgram(program);
 	        this.filterParams.spec = 'all';
 	        this.filterParams.text = '';
@@ -81,12 +70,6 @@ define([
 	        	filterView.emptyView();
 	        }
 
-			/*
-	        myFilterView = new MyFilterView({
-	            'schedule' : CoursePicker.schedule
-	        });
-	        myFilterView.render();*/
-
 	        var myCourseListView = new MyCourseListView({ //räcker med en gång...
 			    'schedule': CoursePicker.schedule
 			});	        
@@ -103,7 +86,6 @@ define([
 	        	filterView.undelegateEvents();
 	        }
 
-
 	        courses = new CourseCollection(CoursePicker.programData);
 	        filterView = new FilterView({
 	            collection: courses,
@@ -112,6 +94,7 @@ define([
 	        courseListView = new CourseListView({
 	            collection: courses
 	        });
+	        console.log('render new filterView');
 	        filterView.render();
 	        courseListView.render(this.filterParams.spec, this.filterParams.text);
 	    },
