@@ -25,6 +25,15 @@ define([
 	    	return sum;
 	    },
 
+	    getTotalAdvanceCredits: function () {
+	    	//getCycle
+	    	var courses = this.where({'cycle': 'A'});
+	    	var sum = courses.reduce(function(memo, course){ 
+	    		return memo + course.getCredits();
+	    	}, 0);
+	    	return sum;
+	    },
+
 	    getTotalSpCredits: function (sp) {
 	    	var courses = this.filter(function (course) {
 	    		return _.contains(course.getSp(),sp);
@@ -35,7 +44,7 @@ define([
 	    		return memo + avgCredits; 
 	    	}, 0.0);
 	    	return res;
-	    }
+	    },
 	    
 	});
 

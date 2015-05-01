@@ -2,10 +2,12 @@ define([
   'jquery',
   'underscore',
   'backbone',
+  'collections/CourseCollection',
   'views/CourseView',
   'CoursePicker',
-  'text!../templates/StudyYearHeaderTemplate.html'
-], function ( $, _, Backbone, CourseView, CoursePicker, Template) {
+  'text!../templates/StudyYearHeaderTemplate.html',
+  'text!../templates/SpecialViewTemplate.html'
+], function ( $, _, Backbone, CourseCollection, CourseView, CoursePicker, Template, SpecialViewTemplate) {
 
 	var MyCourseListView = Backbone.View.extend({
 	    el: '#main-content',
@@ -55,6 +57,7 @@ define([
 	    	var activeYear;
 			var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
 			var credits = 0; 
+			var advanceCredits = 0;
 			var studyPeriodsNbr = [1,2,3,4];
 			var studyPeriodsCredits = [0,0,0,0];
 
@@ -67,15 +70,40 @@ define([
 	        	credits = activeYear.getTotalCredits();
 	        	studyPeriodsCredits = _.map(studyPeriodsNbr, function (nbr) {
 	        		return activeYear.getTotalSpCredits(nbr);
-	        	})
+	        	});
+	        	advanceCredits = activeYear.getTotalAdvanceCredits();
 
 			}
 	    	var template = _.template(Template);
 			this.$el.append(template({
 				'studyYear': year,
 				'totalCredits': credits,
-				'studyPeriodsCredits': studyPeriodsCredits
+				'studyPeriodsCredits': studyPeriodsCredits,
+				'advanceCredits': advanceCredits
 			}));
+			return this;
+	    },
+
+	    renderSpecialView: function () {
+	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
+	        var specials = [];
+	        if(activeProgram) {
+	        	var collection = new CourseCollection();
+	        	activeProgram.year4.each(function (c) {
+	        		collection.add(c);
+	        	});
+	        	activeProgram.year5.each(function (c) {
+	        		collection.add(c);
+	        	});
+	        	specials = collection.getSpecialsAndCredits();
+	        	
+		    	var template = _.template(SpecialViewTemplate);
+		    	this.$el.append('<div class="container" id="special-view"></div>');
+		    	this.$('#special-view').append(template({
+					'specials': specials
+				}));
+	        }
+
 			return this;
 	    },
 	        
@@ -89,6 +117,10 @@ define([
 	        this.renderHeader(5);
 	        this.$el.append('<div class="container" id="year5"></div>');
 	        this.$('#header-year-5').append(this.renderYear(5));
+
+	        this.renderSpecialView();
+
+
 	        return this;
 	    },
 	    

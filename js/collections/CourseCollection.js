@@ -76,6 +76,43 @@ define([
 	        
 	        return _.uniq(specials, iteratee);
 	    },
+
+		getSpecialsAndCredits: function () {
+	    	var specials = this.pluck("specializations");
+	    	specials = _.flatten(specials);
+	    	specials = _.uniq(specials, function(course) {
+	    		return course.shortname;
+	    	});
+
+	    	var self = this;
+	    	var res = _.map(specials, function (s) {
+	    		var credits = self.reduce(function(memo, course) {
+	    			var courseSpecials = course.getSpecials();
+	    			var shortCourseSpecials = _.pluck(courseSpecials, "shortname");
+	    			var sameSpecial = _.contains(shortCourseSpecials, s.shortname);
+
+	    			if (sameSpecial) {
+	    				return memo + course.getCredits();
+	    			}
+	    			else {
+	    				return memo + 0;
+	    			}
+
+	    		}, 0);
+
+	    		var percent = 100 * (1.0 + credits) / 30.0;
+	    		if (percent > 100)
+	    			percent = 100;
+
+	    		return {
+	    			'credits': credits,
+	    			'special': s.fullname,
+	    			'percent': parseInt(percent, 10)
+	    		};
+	    	});
+	    	return res;
+	    	
+	    }
 	});
 
 	return CourseCollection;
