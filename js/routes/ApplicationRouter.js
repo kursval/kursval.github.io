@@ -13,13 +13,9 @@ define([
 	var ApplicationRouter = Backbone.Router.extend({
 	    
 		routes: {
-			''           						: 'allCourses',
-	        ':program/:special'					: 'allCourses',
-	        ':program'							: 'allCourses',
-	        'allCourses/:program'				: 'allCourses',
-	        'allCourses' 						: 'allCourses',
-	        'myCourses/:program'				: 'myCourses',
-	        'myCourses'  						: 'myCourses'
+			''           : 'allCourses',
+	        'allCourses' : 'allCourses',
+	        'myCourses'  : 'myCourses',
 		},
 
 		initialize: function(options) {
@@ -63,10 +59,7 @@ define([
 	        courseListView.render(this.filterParams.spec, this.filterParams.text);
 	    },
 	    
-	    myCourses: function (program) {
-
-	    	if(program)
-				CoursePicker.switchProgram(program);
+	    myCourses: function () {
 
 	    	if(!(typeof myCourseListView === 'undefined' || myCourseListView === null)) {
 	        	myCourseListView.remove(); // should have another name...
@@ -82,10 +75,7 @@ define([
 	        myCourseListView.render();
 	    },
 
-		allCourses: function (program) {
-
-			if(program)
-				CoursePicker.switchProgram(program);
+		allCourses: function () {
 
 			if(!(typeof courseListView === 'undefined' || courseListView === null)) {
 	        	courseListView.remove(); // should have another name...
