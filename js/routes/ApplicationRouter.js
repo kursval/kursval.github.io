@@ -27,36 +27,31 @@ define([
 			Backbone.history.start();
 		},
 	    
-	    filterParams: {
-	        spec: 'all',
-	        text: ''
-	    },
-	    
+
 	    removeMyCourse: function (courseId, year) {
 	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
 	    },
 	    
 	    specChange: function(spec) {
-	        this.filterParams.spec = spec;
+	        CoursePicker.setActiveSpecial(spec);
 	        this.renderFilteredCollection();
 	    },
 	    
 	    textChange: function(text) {
-	        this.filterParams.text = text;   
+	        CoursePicker.setActiveFilterText(text);
 	        this.renderFilteredCollection();
 	    },
 	    
 	    programChange: function (program) {
 	        CoursePicker.switchProgram(program);
-	        this.filterParams.spec = 'all';
-	        this.filterParams.text = '';
-
+	        CoursePicker.setActiveSpecial('all');
+	        CoursePicker.setActiveFilterText('');
 	        this.allCourses();
 	    },
 	    	    
 	    renderFilteredCollection: function () {
-	        courseListView.render(this.filterParams.spec, this.filterParams.text);
+	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText());
 	    },
 	    
 	    myCourses: function () {
@@ -94,7 +89,7 @@ define([
 	            collection: courses
 	        });
 	        filterView.render();
-	        courseListView.render(this.filterParams.spec, this.filterParams.text);
+	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText());
 	    },
 	        
 

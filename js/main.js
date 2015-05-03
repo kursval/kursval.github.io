@@ -26,12 +26,12 @@ require([
     });
 
     $('#year-4-button').on('click', function () {
-        var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.programName});
+        var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.getActiveProgram()});
         activeProgram.year4.addCourse(CoursePicker.activeCourse);
     });
 
     $('#year-5-button').on('click', function () {
-        var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.programName});
+        var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.getActiveProgram()});
         activeProgram.year5.addCourse(CoursePicker.activeCourse);
     });  
 

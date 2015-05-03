@@ -41,11 +41,6 @@ define([
 	    },
 	    
 	    emptyView: function () {
-	    	//this.$('.form-inline').empty();
-	    	//this.$('#special-selector').empty();
-	    	//this.$('#program-selector').empty();
-	    	//this.$('#search').empty();
-	    	//this.$('.form-inline').html('<h1>Kursplan <small>Översikt</h1>');
 	        this.$el.empty();
 	    },
 
@@ -55,19 +50,22 @@ define([
 	            'programs' : CoursePicker.programList
 	        }));
 	    	
-			if (CoursePicker.programName)
-	    		this.$('#program-selector').val(CoursePicker.programName);
+			if (CoursePicker.getActiveProgram())
+	    		this.$('#program-selector').val(CoursePicker.getActiveProgram());
 
 			return this;
 	    },
 
 	    renderSpecial: function() {
-	    	this.$('special-selector').empty();
+	    	this.$('#special-selector').empty();
 	    	var specials = this.collection.getAllSpecials();
 	    	var template = _.template(SpecialTemplate);
 			this.$('.form-inline').append(template({
 	            'specializations': specials,
 	        }));
+			if (CoursePicker.getActiveSpecial())
+	    		this.$('#special-selector').val(CoursePicker.getActiveSpecial());
+
 			return this;
 	    },
 

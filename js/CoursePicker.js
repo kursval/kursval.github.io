@@ -14,6 +14,49 @@ define([
 
     var CoursePicker = {
 
+    	//bioteknik, ekosystemteknik, industriell ekonomi, infocom, lantmäteri, maskinteknik, maskinteknik - teknisk design, medicin och teknik, teknisk matematik, teknisk nanovetenskap, väg och vattenbyggnad, arkitekturutb, 
+
+    	// The list of all json data to the courses in the active program
+    	programData: null,
+
+    	// Course chosen and to be added in year4 or year5
+    	activeCourse: null,
+
+    	filterParams: {
+	        text: ''
+	    },
+
+	    setActiveFilterText: function (text) {
+	    	this.filterParams.text = text;
+	    },
+
+	    getActiveFilterText: function () {
+	    	return this.filterParams.text;
+	    },
+
+	    setActiveSpecial: function (special) {
+	    	console.log(special);
+	    	localStorage.setItem('activeSpecialName', special);
+	    },
+
+	    getActiveSpecial: function () {
+	    	var res = localStorage.getItem('activeSpecialName');
+	    	if (res) {
+	    		return res;
+	    	}
+	    	else {
+	    		return 'all';
+	    	}
+	    },
+
+    	getActiveProgram: function () {
+    		return localStorage.getItem('activeProgramName');
+    	},
+
+    	setActiveProgram: function (program) {
+    		localStorage.setItem('activeProgramName', program);
+    	},
+
     	init: _.once(function() { 
 			this.programList = [
 		        {'id' : 'data', 'name' : 'Datateknik'},
@@ -33,12 +76,12 @@ define([
 		            'year5': new MyCourseCollection([], { 'storageName': storageName5 }),
 		        }
 		    });
-	    }),
 
-    	myProgram: null,
-    	programData: null,
-    	programName: null,
-    	activeCourse: null,
+		    if (this.getActiveProgram()) {
+		    	this.switchProgram(this.getActiveProgram());
+		    }
+
+	    }),
 
     	switchProgram: function (program) {
     		switch(program) {
@@ -60,11 +103,7 @@ define([
 	                program = '';
 	                break;
 	        }
-	        this.programName = program;
-    	},
-
-    	changeMyProgram: function(program) {
-    		this.myProgram = program;
+	        this.setActiveProgram(program);
     	},
 
     	removeMyCourse: function(courseId, year) {

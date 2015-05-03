@@ -27,7 +27,7 @@ define([
 	    },
 	    
 	    renderYear: function(year) {
-	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
+	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.getActiveProgram()});
 
 	        if(!activeProgram)
 	            return this;
@@ -59,7 +59,7 @@ define([
 
 	    renderHeader: function (year) {
 	    	var activeYear;
-			var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
+			var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.getActiveProgram()});
 			var credits = 0; 
 			var advanceCredits = 0;
 			var studyPeriodsNbr = [1,2,3,4];
@@ -89,7 +89,7 @@ define([
 	    },
 
 	    renderSpecialView: function () {
-	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.programName});
+	        var activeProgram = _.findWhere(this.schedule, {'programId': CoursePicker.getActiveProgram()});
 	        var specials = [];
 	        if(activeProgram) {
 	        	var collection = new CourseCollection();
