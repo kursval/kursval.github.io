@@ -22,6 +22,7 @@ define([
     	// Course chosen and to be added in year4 or year5
     	activeCourse: null,
 
+    	// The text used to filter courses in the searchbar
     	filterParams: {
 	        text: ''
 	    },
@@ -107,7 +108,7 @@ define([
     	},
 
     	removeMyCourse: function(courseId, year) {
-    		var activeProgram = _.findWhere(this.schedule, {'programId': this.programName});
+    		var activeProgram = _.findWhere(this.schedule, {'programId': this.getActiveProgram()});
 	        if (year === 4) {
 	            activeProgram.year4.get(courseId).destroy();
 	        } else if (year === 5) {

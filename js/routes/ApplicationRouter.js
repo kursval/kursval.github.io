@@ -27,7 +27,6 @@ define([
 			Backbone.history.start();
 		},
 	    
-
 	    removeMyCourse: function (courseId, year) {
 	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
@@ -64,7 +63,7 @@ define([
 	        	filterView.emptyView();
 	        }
 
-	        var myCourseListView = new MyCourseListView({ //räcker med en gång...
+	        var myCourseListView = new MyCourseListView({
 			    'schedule': CoursePicker.schedule
 			});	        
 	        myCourseListView.render();
