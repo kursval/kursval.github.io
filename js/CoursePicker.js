@@ -50,6 +50,16 @@ define([
 	    	}
 	    },
 
+	    getActiveProgramFullName: function () {
+	    	var name = this.getActiveProgram();
+	    	if(name) {
+	    		var tmp = _.filter(this.programList, {'id':name});
+	    		name = tmp[0].name;
+	    	} 
+	    	return name;
+
+	    },
+
     	getActiveProgram: function () {
     		return localStorage.getItem('activeProgramName');
     	},

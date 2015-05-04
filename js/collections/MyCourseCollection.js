@@ -15,7 +15,12 @@ define([
 	    },
 	    
 	    addCourse: function (course) {
-	        this.create(course.toJSON());
+	    	if (this.get(course.id)) {
+	        	Backbone.trigger("collectionAddMsg", "info", "Kurs existerar redan i vald årskurs!");
+	    	} else {
+	        	this.create(course.toJSON());
+	        	Backbone.trigger("collectionAddMsg", "success", "Kurs tillagd till årskurs!");
+	    	}
 	    },
 
 	    getTotalCredits: function () {

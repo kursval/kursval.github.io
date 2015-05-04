@@ -35,3 +35,13 @@ html {
   position: relative;
   min-height: 100%;
 }
+
+.alert-box{
+  position:fixed;
+  z-index:1400;
+  bottom:3%;
+  left:3%;
+  margin:0px auto;
+  text-align:center;
+  display:none;
+}

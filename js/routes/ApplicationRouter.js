@@ -24,6 +24,8 @@ define([
 	        this.listenTo(Backbone, 'filterProgram', this.programChange);
 	        this.listenTo(Backbone, 'filterMyProgram', this.myProgramChange);
 	        this.listenTo(Backbone, 'removeMyCourse', this.removeMyCourse);
+	        this.listenTo(Backbone, 'collectionAddMsg', this.makeNotification);
+	        //("info", "Hej på dig!");
 			Backbone.history.start();
 		},
 	    
@@ -35,6 +37,16 @@ define([
 	    specChange: function(spec) {
 	        CoursePicker.setActiveSpecial(spec);
 	        this.renderFilteredCollection();
+	    },
+
+	    // alertType is either success,warning,info or danger
+	    makeNotification: function(alertType, text) {
+	    	var divId = "#alert-box-" + alertType;
+	    	$(divId).text(text);
+	        $(divId).fadeIn();
+	        window.setTimeout(function () {
+				$(divId).fadeOut(300)
+			}, 2000);
 	    },
 	    
 	    textChange: function(text) {

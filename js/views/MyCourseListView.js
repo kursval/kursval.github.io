@@ -113,8 +113,16 @@ define([
 	        
 	        
 	    render: function() {
+	    	if(!CoursePicker.getActiveProgram()) {
+	    		this.$el.append('<div class="container"><h2 style="text-align: center;">Inget program valt!</h2><hr/></div>');
+	    		this.$el.append('<div class="container"><p style="text-align: center;">Gå tillbaka till kursvyn och välj ett program</p></div>');
+	    		return this;
+	    	}
 	        this.$el.empty();
 	        this.$el.append('<br></br>');
+        
+        	this.$el.append('<div class="container"><h1 style="text-align: center;">' + CoursePicker.getActiveProgramFullName() + '</h1><hr/></div>');
+
 	        this.renderHeader(4);
 	        this.$el.append('<div class="container" id="year4"></div>');
 	        this.$('#header-year-4').append(this.renderYear(4));
