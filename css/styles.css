@@ -46,8 +46,20 @@ html {
   display:none;
 }
 
-.btn-custom:hover { 
-    background-color: #d35400;
+.btn-custom {
+  color: #fff;
+  background-color: #0C3E22;
+  border-color: #f0f0f0;
+}
+
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom:active { 
+  color: #fff;
+  background-color: #27ae60;
+  border-color: #f0f0f0;
 }
 
 
