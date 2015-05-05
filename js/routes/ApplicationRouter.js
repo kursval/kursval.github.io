@@ -25,10 +25,16 @@ define([
 	        this.listenTo(Backbone, 'filterMyProgram', this.myProgramChange);
 	        this.listenTo(Backbone, 'removeMyCourse', this.removeMyCourse);
 	        this.listenTo(Backbone, 'collectionAddMsg', this.makeNotification);
+	        this.listenTo(Backbone, 'toggleSp', this.toggleSp);
 	        //("info", "Hej på dig!");
 			Backbone.history.start();
 		},
 	    
+		toggleSp: function(sp) {
+			CoursePicker.toggleStudyPeriod(sp);
+			this.renderFilteredCollection();
+		},
+
 	    removeMyCourse: function (courseId, year) {
 	        CoursePicker.removeMyCourse(courseId, year);
 	        this.myCourses();
@@ -62,7 +68,7 @@ define([
 	    },
 	    	    
 	    renderFilteredCollection: function () {
-	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText());
+	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText(), CoursePicker.activeStudyPeriods);
 	    },
 	    
 	    myCourses: function () {

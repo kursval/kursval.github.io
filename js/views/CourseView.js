@@ -6,7 +6,6 @@ define([
 ], function ( $, _, Backbone, Template) {
 
 	var CourseView = Backbone.View.extend({
-	    template: '#course-template',
 
 	    events: {
 	        'click #remove-course' : 'removeCourse'

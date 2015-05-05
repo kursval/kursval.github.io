@@ -46,7 +46,6 @@ define([
 	    },
 
 	    getTotalAdvanceCredits: function () {
-	    	//getCycle
 	    	var courses = this.where({'cycle': 'A'});
 	    	var sum = courses.reduce(function(memo, course){ 
 	    		return memo + course.getCredits();

@@ -26,11 +26,11 @@ define([
 	        this.$el.empty();
 	    },
 	    
-	    render: function (activeSpec, activeText) {
+	    render: function (activeSpec, activeText, studyPeriods) {
 	    	this.$el.empty();
 	        var fragment = document.createDocumentFragment();
 	        var self = this;
-	        this.collection.customFilter(activeSpec, activeText).each(function (course) {
+	        this.collection.customFilter(activeSpec, activeText, studyPeriods).each(function (course) {
 	            var courseView = new CourseView({
 	                model: course, 
 	                type: 'course'

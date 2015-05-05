@@ -7,9 +7,10 @@ define([
   'text!../templates/SpecialSelectorTemplate.html',
   'text!../templates/SearchFilterTemplate.html',
   'text!../templates/FilterInitTemplate.html',
-  'bootstrap',
-  'jquery-ui'
-], function ( $, _, Backbone, CoursePicker, ProgramTemplate, SpecialTemplate, SearchTemplate, FilterInitTemplate) {
+  'text!../templates/StudyPeriodPickerTemplate.html',
+  'jquery-ui',
+  'bootstrap'
+], function ( $, _, Backbone, CoursePicker, ProgramTemplate, SpecialTemplate, SearchTemplate, FilterInitTemplate, StudyPeriodPickerTemplate) {
 
 	var FilterView = Backbone.View.extend({
 	    el:             '#header',
@@ -17,11 +18,17 @@ define([
 	    events: {
 	        'keyup #text-filter .form-control': 'keyboardInput',
 	        'change #program-selector': 		'changeProgram',
-	        'change #special-selector': 		'changeSpecial'
+	        'change #special-selector': 		'changeSpecial',
+	        'click #studyPeriodToggle label': 	'toggleSp'
 	    },
 
 	    initialize: function () {
 	        
+	    },
+
+	    toggleSp: function (e) {
+	    	var sp = $(e.currentTarget).attr('sp');
+	        Backbone.trigger('toggleSp', sp);
 	    },
 	    
 	    keyboardInput: function (e) {
@@ -75,12 +82,21 @@ define([
 			return this;
 	    },
 
+	    renderStudyPeriodToggler: function () {
+	    	var template = _.template(StudyPeriodPickerTemplate);
+			this.$('#studyPeriodToggle').html(template({
+				spList: CoursePicker.activeStudyPeriods 
+			}));
+			return this;
+	    },
+
 	    render: function () {	    	
 	    	this.$el.html(_.template(FilterInitTemplate)());
 	    	//this.$('.form-inline').empty();
 	        this.renderProgram();
 	        this.renderSpecial();
 	        this.renderSearch();
+	        this.renderStudyPeriodToggler();
 	        
 	        return this;
 	    }

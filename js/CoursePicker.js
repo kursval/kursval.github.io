@@ -27,6 +27,17 @@ define([
 	        text: ''
 	    },
 
+	    activeStudyPeriods: {
+	    	1 : true,
+	    	2 : true,
+	    	3 : true,
+	    	4 : true
+	    },
+
+	    toggleStudyPeriod: function (sp) {
+	    	this.activeStudyPeriods[sp] = !this.activeStudyPeriods[sp];
+	    },
+
 	    setActiveFilterText: function (text) {
 	    	this.filterParams.text = text;
 	    },

@@ -44,8 +44,23 @@ define([
 	        });
 	        return res;
 	    },
+
+	    filterOnStudyPeriods: function (list, studyPeriods) {
+			if (!studyPeriods)
+	    		return list;
+	    	
+	    	return _.filter(list, function (c) {
+	    		var currSpList = c.getSp();
+	    		var exist = false;
+	    		_.each(currSpList, function (sp) {
+	    			if (studyPeriods[sp])
+	    				exist = true;
+	    		});
+	    		return exist;
+	    	});
+	    },
 	    
-	    customFilter: function (activeSpec, activeText) {
+	    customFilter: function (activeSpec, activeText, studyPeriods) {
 	        if (!activeText) {
 	            activeText = '';   
 	        }
@@ -58,6 +73,7 @@ define([
 	        var list = this.map(function (c) { return c; });
 	        list = this.filterSpecial(list, activeSpec);
 	        list = this.filterOnText(list, activeText);
+	        list = this.filterOnStudyPeriods(list, studyPeriods);
 	        return new CourseCollection(list);
 	    },
 	    

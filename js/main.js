@@ -3,6 +3,7 @@ require([
   'routes/ApplicationRouter',
   'views/MyCourseListView',
   'CoursePicker',
+  'bootstrap'
 ], function (Backbone, ApplicationRouter, MyCourseListView, CoursePicker) {
 
     CoursePicker.init();
@@ -36,6 +37,13 @@ require([
         var exist = activeProgram.year4.exist(CoursePicker.activeCourse);
         activeProgram.year5.addCourse(CoursePicker.activeCourse, 5, exist);
     });  
+
+
+    /*$('#studyPeriodToggle label').on('click', function (e) {
+        var sp = $(e.currentTarget).attr('sp');
+        CoursePicker.toggleStudyPeriod(sp);
+        console.log(CoursePicker.activeStudyPeriods);
+    });*/
 
 	var myCourseListView = new MyCourseListView({
 	    'schedule': CoursePicker.schedule
