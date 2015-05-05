@@ -1,15 +1,14 @@
-<div data-toggle="buttons" class="btn-group btn-group-justified">
-
+<div data-toggle="buttons" class="btn-group btn-group-justified">	
 	<% for (i = 1; i < 5; i++) { %>
 		<% if (spList[i]) {%>
 
-			<label class="btn btn-sm btn-primary active" sp="<%=i%>">
+			<label class="btn btn-sm btn-primary btn-custom active" sp="<%=i%>">
 				<input type="checkbox" autocomplete="off" checked>Lp <%=i%>
 			</label>
 
 		<% }else{ %>
 
-			<label class="btn btn-sm btn-primary" sp="<%=i%>">
+			<label class="btn btn-sm btn-primary btn-custom" sp="<%=i%>">
 				<input type="checkbox" autocomplete="off">Lp <%=i%>
 			</label>
 

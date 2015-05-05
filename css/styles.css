@@ -45,3 +45,9 @@ html {
   text-align:center;
   display:none;
 }
+
+.btn-custom:hover { 
+    background-color: #d35400;
+}
+
+

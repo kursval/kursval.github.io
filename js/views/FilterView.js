@@ -19,7 +19,7 @@ define([
 	        'keyup #text-filter .form-control': 'keyboardInput',
 	        'change #program-selector': 		'changeProgram',
 	        'change #special-selector': 		'changeSpecial',
-	        'click #studyPeriodToggle label': 	'toggleSp'
+	        'change #studyPeriodToggle label': 	'toggleSp'
 	    },
 
 	    initialize: function () {
