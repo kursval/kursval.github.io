@@ -1,19 +1,20 @@
 <div data-toggle="buttons" class="btn-group btn-group-justified">
-	
-	<label class="btn btn-sm btn-primary <% if (spList[1]) {%> active <%}%>" sp="1">
 
-		<input type="checkbox" autocomplete="off"<% if (spList[1]) {%> checked <%}%>>Lp 1
-	</label>
-	
-	<label class="btn btn-sm btn-primary <% if (spList[2]) {%> active <%}%>" sp="2">
-		<input type="checkbox" autocomplete="off"<% if (spList[2]) {%> checked <%}%>>Lp 2
-	</label>
-	
-	<label class="btn btn-sm btn-primary <% if (spList[3]) {%> active <%}%>" sp="3">
-		<input type="checkbox" autocomplete="off"<% if (spList[3]) {%> checked <%}%>>Lp 3
-	</label>
+	<% for (i = 1; i < 5; i++) { %>
+		<% if (spList[i]) {%>
 
-	<label class="btn btn-sm btn-primary <% if (spList[4]) {%> active <%}%>" sp="4">
-		<input type="checkbox" autocomplete="off"<% if (spList[4]) {%> checked <%}%>>Lp 4
-	</label>
+			<label class="btn btn-sm btn-primary active" sp="<%=i%>">
+				<input type="checkbox" autocomplete="off" checked>Lp <%=i%>
+			</label>
+
+		<% }else{ %>
+
+			<label class="btn btn-sm btn-primary" sp="<%=i%>">
+				<input type="checkbox" autocomplete="off">Lp <%=i%>
+			</label>
+
+		<% } %>
+
+	<% } %>
+	
 </div>
