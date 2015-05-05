@@ -14,13 +14,28 @@ define([
 	        this.localStorage = new Backbone.LocalStorage(options.storageName);
 	    },
 	    
-	    addCourse: function (course) {
+	    addCourse: function (course, year, existInOtherCollection) {
+	    	var name = course.getCode();
 	    	if (this.get(course.id)) {
-	        	Backbone.trigger("collectionAddMsg", "info", "Kurs existerar redan i vald årskurs!");
+	        	Backbone.trigger("collectionAddMsg", "info", name + " existerar redan i årskurs " + year + "!");
 	    	} else {
 	        	this.create(course.toJSON());
-	        	Backbone.trigger("collectionAddMsg", "success", "Kurs tillagd till årskurs!");
+	        	if(existInOtherCollection) {
+	    			Backbone.trigger("collectionAddMsg", "warning", name + " tillagd till årskurs! Observera att kurs redan finns i en annan årskurs");
+	    		} else {
+	        		Backbone.trigger("collectionAddMsg", "success", name + " tillagd till årskurs " + year + "!");
+	    		}
 	    	}
+	    },
+
+	    removeCourseWithId: function (courseId) {
+	    	var courseCode = this.get(courseId).getCode();
+	    	this.get(courseId).destroy();
+	    	Backbone.trigger("collectionAddMsg", "danger", courseCode + " borttagen från schema");
+	    },
+
+	    exist: function(course) {
+	    	return !(this.get(course.id) === undefined);
 	    },
 
 	    getTotalCredits: function () {
@@ -48,7 +63,13 @@ define([
 	    		var avgCredits = course.getCredits() / nbrPeriods;
 	    		return memo + avgCredits; 
 	    	}, 0.0);
-	    	return res;
+
+	    	// Either no precision or 2digit precision. 0 should be 0, not 0.00
+	    	var tmp = res.toFixed();
+	    	if(tmp == res)
+	    		return tmp;
+	    	else
+	    		return res.toFixed(2);
 	    },
 	    
 	});

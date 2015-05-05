@@ -27,12 +27,14 @@ require([
 
     $('#year-4-button').on('click', function () {
         var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.getActiveProgram()});
-        activeProgram.year4.addCourse(CoursePicker.activeCourse);
+        var exist = activeProgram.year5.exist(CoursePicker.activeCourse);
+        activeProgram.year4.addCourse(CoursePicker.activeCourse, 4, exist);
     });
 
     $('#year-5-button').on('click', function () {
         var activeProgram = _.findWhere(CoursePicker.schedule, {'programId': CoursePicker.getActiveProgram()});
-        activeProgram.year5.addCourse(CoursePicker.activeCourse);
+        var exist = activeProgram.year4.exist(CoursePicker.activeCourse);
+        activeProgram.year5.addCourse(CoursePicker.activeCourse, 5, exist);
     });  
 
 	var myCourseListView = new MyCourseListView({

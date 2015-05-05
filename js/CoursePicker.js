@@ -36,7 +36,6 @@ define([
 	    },
 
 	    setActiveSpecial: function (special) {
-	    	console.log(special);
 	    	localStorage.setItem('activeSpecialName', special);
 	    },
 
@@ -120,9 +119,9 @@ define([
     	removeMyCourse: function(courseId, year) {
     		var activeProgram = _.findWhere(this.schedule, {'programId': this.getActiveProgram()});
 	        if (year === 4) {
-	            activeProgram.year4.get(courseId).destroy();
+	            activeProgram.year4.removeCourseWithId(courseId);
 	        } else if (year === 5) {
-	            activeProgram.year5.get(courseId).destroy();
+	            activeProgram.year5.removeCourseWithId(courseId);
 	        }
     	}
 
