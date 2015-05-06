@@ -62,4 +62,12 @@ html {
   border-color: #f0f0f0;
 }
 
+.btn.focus, .btn:focus, .btn:hover {
+  color: #fff !important;
+}
+
+.btn:hover { color: inherit; }
+
+
+
 
