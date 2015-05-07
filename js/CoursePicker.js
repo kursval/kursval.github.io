@@ -205,7 +205,10 @@ define([
 	            case 'v':
 	            	this.programData = v;
 	            	break;
+	            case 'none':
+	            	this.programData = [];
 	            default:
+	            	this.programData = [];
 	                program = '';
 	                break;
 
