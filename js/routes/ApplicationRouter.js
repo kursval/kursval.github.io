@@ -61,23 +61,25 @@ define([
 	    },
 	    
 	    programChange: function (program) {
-	        CoursePicker.switchProgram(program);
-	        CoursePicker.setActiveSpecial('all');
-	        CoursePicker.setActiveFilterText('');
-	        this.allCourses();
+
+			var divId = "#main-content";
+	        $(divId).html('<div id="spinner" class="spinner" style="position: fixed; margin-left:50%;">Laddar kurser...</div>');
+
+	        setTimeout(function(self){
+		        CoursePicker.switchProgram(program);
+		        CoursePicker.setActiveSpecial('all');
+		        CoursePicker.setActiveFilterText('');
+		        self.allCourses();
+			}, 150, this);
+
+
 	    },
 	    	    
 	    renderFilteredCollection: function () {
-	    	var divId = "#spinner";
-	        $(divId).fadeIn();
-
 	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText(), CoursePicker.activeStudyPeriods);
 	    },
 	    
 	    myCourses: function () {
-
-	    	var divId = "#spinner";
-	        $(divId).fadeIn();
 
 	    	if(!(typeof myCourseListView === 'undefined' || myCourseListView === null)) {
 	        	myCourseListView.remove(); // should have another name...
@@ -94,9 +96,6 @@ define([
 	    },
 
 		allCourses: function () {
-
-			var divId = "#spinner";
-	        $(divId).fadeIn();
 
 			if(!(typeof courseListView === 'undefined' || courseListView === null)) {
 	        	courseListView.remove(); // should have another name...

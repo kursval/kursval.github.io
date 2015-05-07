@@ -27,7 +27,7 @@ define([
 	    },
 	    
 	    render: function (activeSpec, activeText, studyPeriods) {
-	    	this.$el.empty();
+	    	
 	        var fragment = document.createDocumentFragment();
 	        var self = this;
 	        this.collection.customFilter(activeSpec, activeText, studyPeriods).each(function (course) {
@@ -38,9 +38,9 @@ define([
 	            self.subViews.push(courseView);
 	            fragment.appendChild(courseView.render().el)
 	        });
+	        this.$el.empty();
 	        this.$el.append('<div class="container"></div>');
 	        this.$('.container').html(fragment);
-	        //this.$el.append('</div>');
 	        return this;
 	    }
 	    
