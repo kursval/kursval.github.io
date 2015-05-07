@@ -1,6 +1,10 @@
 require 'rubygems'
 require 'nokogiri' 
 require 'open-uri'
+require 'set'
+require 'json'
+
+
 
 def find_all_specializations(node_tree)
 	specializations = []
@@ -9,8 +13,7 @@ def find_all_specializations(node_tree)
 		special = Hash.new
 		special['shortname'] = node.values.first.to_s
 		special['fullname'] = node.content.to_s
-		special['shortname'] = "V" if special['fullname'].scan(/^Valfria/)
-		special['shortname'] = "V" if special['fullname'].scan(/^Elective/)
+		special['shortname'] = "V" if special['shortname'] == ""
 		specializations.push(special)
 	end
 
@@ -107,6 +110,8 @@ def parse_all_courses(html_doc)
 	specials_nodeset = get_specialization_nodeset(special_nodes)
 	node_and_specialization = specials_nodeset.zip(specials)
 
+	result = []
+
 	node_and_specialization.each do |node,specialization|
 		type = get_course_type(specialization)
 		break if type == "degree project"
@@ -116,10 +121,31 @@ def parse_all_courses(html_doc)
 		courses.each do |course|
 			course_node = Nokogiri::HTML(course.inner_html)
 			the_course = create_course(course_node, type, specialization)
-			the_course.sort.each do |key, value|
-				puts key.to_s + ': ' +  value.to_s
+			result << the_course
+		end
+	end
+
+	result = add_specials_to_courses(result)
+	result = remove_duplicates(result)
+	result = give_each_course_uniq_id(result)
+
+	return result
+end
+
+def add_specials_to_courses(courses)
+	courses.each do |curr_course|
+		curr_name = curr_course['name']
+		curr_specials = curr_course['specializations']
+		courses.each do |other_course|
+			other_name = other_course['name']
+			other_specials = other_course['specializations']
+			if curr_name == other_name
+				other_specials.each do |other_sp|
+					curr_specials << other_sp
+				end
 			end
 		end
+		curr_course['specializations'] = curr_specials.to_a
 	end
 end
 
@@ -134,7 +160,10 @@ def create_course(course_node, type, specialization)
 	course['sp'] = sp
 	course['sp_details'] = sp_details
 	course['on_hold'] = sp.length == 0
-	course['specialization'] = specialization
+
+	special_set = Set.new
+	special_set << specialization
+	course['specializations'] = special_set
 
 	course
 end
@@ -150,7 +179,7 @@ end
 def map_course_data(list, ignoreNumber)
 
 	code = list.shift
-	credits = list.shift.to_f
+	credits = list.shift.gsub(',', '.').to_f	
 	cycle = list.shift
 	ignoreNumber.times { list.shift }
 	language = list.shift
@@ -170,36 +199,63 @@ def map_course_data(list, ignoreNumber)
 end
 
 def get_course_type(specialization)
-		name = specialization['fullname']
-		case name
-		when /^Årskurs/
-			"bachelor"
-		when /^Study\sYear/
-			"bachelor"
-		when /^Specialisering/
-			"master"
-		when /^Specialisation/
-			"master"
-		when /^Valfria/
-			"elective"
-		when /^Elective/
-			"elective"
-		when /^Degree\sProjects/
-			"degree project"
-		when /^Examensarbeten/
-			"degree project"
-		end
+	name = specialization['fullname']
+	case name
+	when /^Årskurs/
+		"bachelor"
+	when /^Study\sYear/
+		"bachelor"
+	when /^Specialisering/
+		"master"
+	when /^Specialisation/
+		"master"
+	when /^Valfria/
+		"elective"
+	when /^Elective/
+		"elective"
+	when /^Degree\sProjects/
+		"degree project"
+	when /^Examensarbeten/
+		"degree project"
+	end
 end
 
-abort("Takes 3 arguments: program[D], study year[XX_XX], language[en, sv]") unless ARGV.length == 3
-program = ARGV[0]
-study_year = ARGV[1]
-language = ARGV[2]
+def remove_duplicates(courses)
+	courses.uniq do |c|
+		code = c['code']
+		sp = c['sp']
+		footnote = c['footnote']
+		credits = c['credits']
+		cycle = c['cycle']
+		code.to_s + sp.join(",") + footnote.to_s + credits.to_s + cycle.to_s
+	end
+end
 
-url = "http://kurser.lth.se/lot/?lasar=" + study_year + "&sort1=lp&sort2=slut_lp&sort3=namn&prog=" + program + "&forenk=t&val=program&soek=t&lang=" +language;
+def give_each_course_uniq_id(courses)
+	i = 0;
+	courses.each do |c|
+		c['id'] = i
+		i += 1
+	end
+end
 
-test = 'input.html'
-html_doc = Nokogiri::HTML(open(url))
-parse_all_courses(html_doc)
+#Main program starts here
+#abort("Takes 3 arguments: program[D], study year[XX_XX], language[en, sv]") unless ARGV.length == 3
+#program = ARGV[0]
+#study_year = ARGV[1]
+#language = ARGV[2]
+#puts begin_parse(program, study_year, language)
+
+def parse(program, study_year, language)
+
+	url = "http://kurser.lth.se/lot/?lasar=" + study_year + "&sort1=lp&sort2=slut_lp&sort3=namn&prog=" + program + "&forenk=t&val=program&soek=t&lang=" +language;
+
+	test = 'input.html' #will be removed later on...
+	html_doc = Nokogiri::HTML(open(url))
+	courses = parse_all_courses(html_doc)
+
+	return JSON.pretty_generate courses
+
+end
 
 

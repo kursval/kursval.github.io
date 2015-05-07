@@ -5,16 +5,30 @@ define([
   'underscore',
   'backbone', 
   'collections/MyCourseCollection',
-  'json!../../programs/datateknik.json',
-  'json!../../programs/kemiteknik.json',
-  'json!../../programs/fysik.json',
-  'json!../../programs/elektroteknik.json',
+  //'json!../../programs/datateknik.json',
+  //'json!../../programs/kemiteknik.json',
+  //'json!../../programs/fysik.json',
+  //'json!../../programs/elektroteknik.json',//data, kemi, fysik, elektro
+  'json!../../programs/a.json',
+  'json!../../programs/b.json',
+  'json!../../programs/d.json',
+  'json!../../programs/w.json',
+  'json!../../programs/e.json',
+  'json!../../programs/i.json',
+  'json!../../programs/c.json',
+  'json!../../programs/k.json',
+  'json!../../programs/l.json',
+  'json!../../programs/m.json',
+  'json!../../programs/md.json',
+  'json!../../programs/bme.json',
+  'json!../../programs/f.json',
+  'json!../../programs/pi.json',
+  'json!../../programs/n.json',
+  'json!../../programs/v.json',
 
-], function ( $, _, Backbone, MyCourseCollection, data, kemi, fysik, elektro) {
+], function ( $, _, Backbone, MyCourseCollection, a,b,d,w,e,i,c,k,l,m,md,bme,f,pi,n,v) {
 
     var CoursePicker = {
-
-    	//bioteknik, ekosystemteknik, industriell ekonomi, infocom, lantmäteri, maskinteknik, maskinteknik - teknisk design, medicin och teknik, teknisk matematik, teknisk nanovetenskap, väg och vattenbyggnad, arkitekturutb, 
 
     	// The list of all json data to the courses in the active program
     	programData: null,
@@ -79,12 +93,31 @@ define([
     	},
 
     	init: _.once(function() { 
-			this.programList = [
+			/*this.programList = [
 		        {'id' : 'data', 'name' : 'Datateknik'},
 		        {'id' : 'elektro', 'name' : 'Elektroteknik'},
 		        {'id' : 'kemi', 'name' : 'Kemiteknik'},
 		        {'id' : 'fysik', 'name' : 'Teknisk fysik'}
-		    ];
+		    ];*/
+
+		    this.programList = [
+			    { 'id' : 'a',    'name': 'Arkitektur'},
+			    { 'id' : 'b',    'name': 'Bioteknik'},
+			    { 'id' : 'd',    'name': 'Datateknik'},
+			    { 'id' : 'w',    'name': 'Ekosystemteknik'},
+			    { 'id' : 'e',    'name': 'Elektroteknik'},
+			    { 'id' : 'i',    'name': 'Industriell ekonomi'},
+			    { 'id' : 'c',    'name': 'Infocom'},
+			    { 'id' : 'k',    'name': 'Kemiteknik'},
+			    { 'id' : 'l',    'name': 'Lantmäteri'},
+			    { 'id' : 'm',    'name': 'Maskinteknik'},
+			    { 'id' : 'md',   'name': 'Maskinteknik - Teknisk design'},
+			    { 'id' : 'bme',  'name': 'Medicin och teknik'},
+			    { 'id' : 'f',    'name': 'Teknisk fysik'},
+			    { 'id' : 'pi',   'name': 'Teknisk matematik'},
+			    { 'id' : 'n',    'name': 'Teknisk nanovetenskap'},
+			    { 'id' : 'v',    'name': 'Väg och vattenbyggnad'},
+			];
 		    
 		    this.schedule = _.map(this.programList, function (p) {
 		        var storageName4 = p.id + '-storage4';
@@ -106,7 +139,7 @@ define([
 
     	switchProgram: function (program) {
     		switch(program) {
-	            case 'data':
+	        /*    case 'data':
 	                this.programData = data;
 	                break;
 	            case 'elektro':
@@ -123,6 +156,59 @@ define([
 	            default:
 	                program = '';
 	                break;
+*/
+	            case 'a':
+	            	this.programData = a;
+	            	break;
+	            case 'b':
+	            	this.programData = b;
+	            	break;
+	            case 'd':
+	            	this.programData = d;
+	            	break;
+	            case 'w':
+	            	this.programData = w;
+	            	break;
+	            case 'e':
+	            	this.programData = e;
+	            	break;
+	            case 'i':
+	            	this.programData = i;
+	            	break;
+	            case 'c':
+	            	this.programData = c;
+	            	break;
+	            case 'k':
+	            	this.programData = k;
+	            	break;
+	            case 'l':
+	            	this.programData = l;
+	            	break;
+	            case 'm':
+	            	this.programData = m;
+	            	break;
+	            case 'md':
+	            	this.programData = md;
+	            	break;
+	            case 'bme':
+	            	this.programData = bme;
+	            	break;
+	            case 'f':
+	            	this.programData = f;
+	            	break;	
+	            case 'pi':
+	            	this.programData = pi;
+	            	break;
+	            case 'n':
+	            	this.programData = n;
+	            	break;
+	            case 'v':
+	            	this.programData = v;
+	            	break;
+	            default:
+	                program = '';
+	                break;
+
 	        }
 	        this.setActiveProgram(program);
     	},
