@@ -32,6 +32,10 @@ define([
 	    
 	    getId: function () {
 	        return this.get('id');
+	    },
+
+	    isOnHold: function () {
+	    	return this.get('on_hold');
 	    }
 	    
 	});

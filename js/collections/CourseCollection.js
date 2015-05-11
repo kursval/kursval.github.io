@@ -46,11 +46,16 @@ define([
 	    },
 
 	    filterOnStudyPeriods: function (list, studyPeriods) {
+
 			if (!studyPeriods)
 	    		return list;
 	    	
 	    	return _.filter(list, function (c) {
 	    		var currSpList = c.getSp();
+
+	    		if (c.isOnHold())
+	    			return true; 
+
 	    		var exist = false;
 	    		_.each(currSpList, function (sp) {
 	    			if (studyPeriods[sp])

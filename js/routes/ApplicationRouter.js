@@ -114,7 +114,7 @@ define([
 	            collection: courses
 	        });
 	        filterView.render();
-	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText());
+	        courseListView.render(CoursePicker.getActiveSpecial(), CoursePicker.getActiveFilterText(), CoursePicker.activeStudyPeriods);
 	    },
 	        
 
