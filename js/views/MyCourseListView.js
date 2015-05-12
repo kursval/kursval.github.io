@@ -6,8 +6,9 @@ define([
   'views/CourseView',
   'CoursePicker',
   'text!../templates/StudyYearHeaderTemplate.html',
-  'text!../templates/SpecialViewTemplate.html'
-], function ( $, _, Backbone, CourseCollection, CourseView, CoursePicker, Template, SpecialViewTemplate) {
+  'text!../templates/SpecialViewTemplate.html',
+  'text!../templates/FullVeiwTemplate.html'
+], function ( $, _, Backbone, CourseCollection, CourseView, CoursePicker, Template, SpecialViewTemplate, FullViewTemplate) {
 
 	var MyCourseListView = Backbone.View.extend({
 	    el: '#main-content',
@@ -106,8 +107,13 @@ define([
 		    	this.$('#special-view').append(template({
 					'specials': specials
 				}));
+                var full = collection.getFullCredits();
+                template = _.template(FullViewTemplate);
+                this.$el.append('<div class="container" id="full-view"></div>');
+		    	this.$('#full-view').append(template({
+					'full': full
+				}));
 	        }
-
 			return this;
 	    },
 	        

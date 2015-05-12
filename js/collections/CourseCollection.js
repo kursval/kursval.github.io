@@ -133,7 +133,29 @@ define([
 	    	});
 	    	return res;
 	    	
-	    }
+	    },
+        getFullCredits: function () {
+	    	var self = this;
+            var res = {};
+            res.adv = {};
+            res.tot = {};
+            res.adv.credits = this.reduce(function(sum,course){
+                if(course.getCycle() === "A"){
+                    sum = sum + course.getCredits();
+                }
+                return sum;
+                
+            },0);
+            res.tot.credits = this.reduce(function(sum,course){
+                sum = sum + course.getCredits();
+                return sum;
+                
+            },0);
+            res.adv.percent = Math.min(1.0,res.adv.credits/45.0)*100;
+            res.tot.percent = Math.min(1.0,res.tot.credits/120.0)*100;
+	    	return res;
+	    	
+	    },
 	});
 
 	return CourseCollection;
