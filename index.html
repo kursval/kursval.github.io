@@ -1,96 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Lunds Tekniska kurssval</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
-    <link href="css/jquery-ui.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>Lunds Tekniska kurssval</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/jquery-ui.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="http://css-spinners.com/css/spinner/spinner.css" type="text/css">
 
-    <link rel="icon" 
-      type="image/png" 
-      href="favicon.png" />
-</head>
+		<link rel="icon" 
+		type="image/png" 
+		href="favicon.png" />
+	</head>
 
-<body>
-    <!-- navbar -->
-    <div class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            
-            <a class="navbar-brand" href="#">Lunds Tekniska kursval</a>
-            <button class = "navbar-toggle" data-toggle = "collapse" data-target = ".nav-header-collapse">
-                <span class="sr-only">Navigera</span>
-                <span class = "icon-bar"></span>
-                <span class = "icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <div class = "collapse navbar-collapse nav-header-collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="header" id="list"><a href="#allCourses" data-toggle="collapse" data-target=".nav-header-collapse"> <span style="top: 2px" class="glyphicon glyphicon-list-alt"></span> Kurser</a>
-                </li>
-                <li class="header" id="schedule"><a href="#myCourses" data-toggle="collapse" data-target=".nav-header-collapse"><span style="top: 2px" class="glyphicon glyphicon-calendar"> </span> Schema</a>
-                </li>
-                <li class="divider-vertical"></li>
-            </ul>
-            </div>
-        </div>
-    </div>
-    <div id="header">
-    </div>
-    <!-- /navbar -->
-        
+	<body>
+		<!-- navbar -->
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
 
-    <!-- container -->
-    <div id="main-content">
-        
-        <div id="spinner" class="spinner" style="position: fixed; top:50%; margin-left:50%;">
-            Laddar kurser...
-        </div>
-        
-        
-    </div>
-    <!-- /container -->
+				<a class="navbar-brand" href="#">Lunds Tekniska kursval</a>
+				<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".nav-header-collapse">
+					<span class="sr-only">Navigera</span>
+					<span class = "icon-bar"></span>
+					<span class = "icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class = "collapse navbar-collapse nav-header-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="header" id="list"><a href="#allCourses" data-toggle="collapse" data-target=".nav-header-collapse"> <span style="top: 2px" class="glyphicon glyphicon-list-alt"></span> Kurser</a>
+						</li>
+						<li class="header" id="schedule"><a href="#myCourses" data-toggle="collapse" data-target=".nav-header-collapse"><span style="top: 2px" class="glyphicon glyphicon-calendar"> </span> Schema</a>
+						</li>
+						<li class="divider-vertical"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="header">
+		</div>
+		<!-- /navbar -->
 
-    <div id="alert-box-success" class="alert-box alert alert-success" data-alert="alert"></div>
-    <div id="alert-box-warning" class="alert-box alert alert-warning" data-alert="alert"></div>
-    <div id="alert-box-info" class="alert-box alert alert-info" data-alert="alert"></div>
-    <div id="alert-box-danger" class="alert-box alert alert-danger" data-alert="alert"></div>
-    <!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
-    <footer class="footer">
-        <div class="container">
-            <div>
-                <a style="float:right;" href="https://github.com/kursval"><img src="github.ico"></img></a>
-            </div>
-        </div>
-    </footer>
 
-    <!-- Modal -->
-    <div class="modal fade" id="select-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Lägg till kurs i läsår:</h4>
-          </div>
+		<!-- container -->
+		<div id="main-content">
 
-          <div class="modal-body">
-            <button type="button" id="year-4-button" class="btn btn-default" data-dismiss="modal">Läsår 4</button>
-            <button type="button" id="year-5-button" class="btn btn-default" data-dismiss="modal">Läsår 5</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--/Modal-->
+			<div id="spinner" class="spinner" style="position: fixed; top:50%; margin-left:50%;">
+				Laddar kurser...
+			</div>
 
-  
-    <!-- script references -->
-    <script src="js/lib/require.js" data-main="js/config.js"></script>    
-    
-</body>
+
+		</div>
+		<!-- /container -->
+
+		<div id="alert-box-success" class="alert-box alert alert-success" data-alert="alert"></div>
+		<div id="alert-box-warning" class="alert-box alert alert-warning" data-alert="alert"></div>
+		<div id="alert-box-info" class="alert-box alert alert-info" data-alert="alert"></div>
+		<div id="alert-box-danger" class="alert-box alert alert-danger" data-alert="alert"></div>
+		<!--<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>-->
+		<footer class="footer">
+		<div class="container">
+			<div>
+				<a style="float:right;" href="https://github.com/kursval"><img src="github.ico"></img></a>
+			</div>
+		</div>
+		</footer>
+
+		<!-- Modal -->
+		<div class="modal fade" id="select-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Lägg till kurs i läsår:</h4>
+					</div>
+
+					<div class="modal-body">
+						<button type="button" id="year-4-button" class="btn btn-default" data-dismiss="modal">Läsår 4</button>
+						<button type="button" id="year-5-button" class="btn btn-default" data-dismiss="modal">Läsår 5</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/Modal-->
+
+
+		<!-- script references -->
+		<script src="js/lib/require.js" data-main="js/config.js"></script>    
+
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new
+				Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-62919553-1', 'auto');
+			ga('send', 'pageview');
+
+		</script>
+	</body>
 </html>
 
 
