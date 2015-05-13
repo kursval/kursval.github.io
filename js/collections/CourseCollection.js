@@ -152,7 +152,7 @@ define([
                 
             },0);
             res.adv.percent = Math.min(1.0,res.adv.credits/45.0)*100;
-            res.tot.percent = Math.min(1.0,res.tot.credits/120.0)*100;
+            res.tot.percent = Math.min(1.0,res.tot.credits/90.0)*100;
 	    	return res;
 	    	
 	    },
