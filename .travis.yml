@@ -1,0 +1,12 @@
+lang: ruby
+
+rvm:
+  - 2.2
+
+install:
+ - gem install nokogiri
+
+script:
+ - cd course_parser
+ - ruby parse_many_programs.rb 15_16 en
+#- ruby parse_many_programs.rb 16_17 en
