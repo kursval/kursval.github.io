@@ -8,12 +8,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA60.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA60.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA60.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA60.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -23,12 +23,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161224.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161224.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -65,12 +60,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -80,7 +75,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175620.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175620.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -117,12 +112,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -132,7 +127,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175637.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175637.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -154,7 +149,7 @@
       {
         "2": {
           "Föreläsningar:": 10,
-          "Övningar:": 40,
+          "Övningar:": 64,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -171,35 +166,30 @@
     "id": 2
   },
   {
-    "code": "AAHA01",
+    "code": "AAHA20",
     "credits": 9.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs A (åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges 2015/16, 2017/2018.",
+    "name": "Arkitektur, baskurs C (åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/17, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA01&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA20&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161217.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175626.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -236,12 +226,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/VBKA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/VBKA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/VBKA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/VBKA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -256,7 +246,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197215.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197215.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -268,9 +258,9 @@
       {
         "2": {
           "Föreläsningar:": 22,
-          "Övningar:": 22,
+          "Övningar:": 20,
           "Laborationer:": 1,
-          "Handledd projekttid:": 1,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       }
@@ -293,12 +283,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/VBMA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/VBMA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/VBMA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/VBMA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -313,7 +303,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162062.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162062.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -350,12 +340,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -365,7 +355,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175621.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175621.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -394,35 +384,30 @@
     "id": 6
   },
   {
-    "code": "AAHA10",
+    "code": "AAHA30",
     "credits": 18.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs B (åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges läsåret 2015/16, 2017/2018.",
+    "name": "Arkitektur, baskurs D (åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/17, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA30.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA30.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA10&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA30&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161219.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175628.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -461,30 +446,30 @@
     "id": 7
   },
   {
-    "code": "ATHA05",
+    "code": "ATHA20",
     "credits": 7.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitekturens teori och historia II (Åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges läsåret 2015/16, 2017/2018.",
+    "name": "Arkitekturens teori och historia IV (Åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/2017, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA05&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA20&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182824.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175639.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -496,8 +481,8 @@
     "sp_details": [
       {
         "3": {
-          "Föreläsningar:": 18,
-          "Övningar:": 12,
+          "Föreläsningar:": 14,
+          "Övningar:": 14,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -505,8 +490,8 @@
       },
       {
         "4": {
-          "Föreläsningar:": 18,
-          "Övningar:": 12,
+          "Föreläsningar:": 14,
+          "Övningar:": 14,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -523,35 +508,35 @@
     "id": 8
   },
   {
-    "code": "AAHA20",
+    "code": "AAHA01",
     "credits": 9.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs C (åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/17.",
+    "name": "Arkitektur, baskurs A (åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA20&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA01&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning/",
+        "url": "http://www.ateljeerna.lth.se/utbildning",
         "type": "W",
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175626.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161217.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -572,25 +557,25 @@
     "id": 9
   },
   {
-    "code": "AAHA30",
+    "code": "AAHA10",
     "credits": 18.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs D (åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/17.",
+    "name": "Arkitektur, baskurs B (åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA30.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA30.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA30&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA10&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
@@ -600,7 +585,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175628.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161219.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -621,30 +606,30 @@
     "id": 10
   },
   {
-    "code": "ATHA20",
+    "code": "ATHA05",
     "credits": 7.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitekturens teori och historia IV (Åk 1)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/2017.",
+    "name": "Arkitekturens teori och historia II (Åk 1)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA20&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA05&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175639.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182824.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -673,12 +658,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -688,7 +673,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175622.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175622.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -725,12 +710,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA55.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA55.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA55.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA55.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -740,7 +725,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161223.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161223.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -777,12 +762,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA15.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA15.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -792,7 +777,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175638.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175638.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -804,8 +789,8 @@
     "sp_details": [
       {
         "1": {
-          "Föreläsningar:": 26,
-          "Övningar:": 8,
+          "Föreläsningar:": 24,
+          "Övningar:": 0,
           "Laborationer:": 0,
           "Handledd projekttid:": 0,
           "Självstudietid:": 0
@@ -813,8 +798,8 @@
       },
       {
         "2": {
-          "Föreläsningar:": 26,
-          "Övningar:": 8,
+          "Föreläsningar:": 24,
+          "Övningar:": 0,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -831,35 +816,30 @@
     "id": 14
   },
   {
-    "code": "AAHA05",
+    "code": "AAHA25",
     "credits": 9.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs A (åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges läsåret 2015/16, 2017/2018.",
+    "name": "Arkitektur, baskurs C (åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/17, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA25.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA25.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA05&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA25&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161218.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175627.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -896,12 +876,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/VBMA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/VBMA10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/VBMA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/VBMA10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -916,7 +896,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162063.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162063.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -953,12 +933,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABKA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABKA01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABKA01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABKA01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -973,7 +953,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197192.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197192.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1010,12 +990,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA15.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA15.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1025,7 +1005,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175623.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175623.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1054,35 +1034,30 @@
     "id": 18
   },
   {
-    "code": "AAHF15",
+    "code": "AAHF05",
     "credits": 18.0,
     "cycle": "G2",
     "language": "S",
-    "name": "Arkitektur, baskurs B (åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges läsåret 2015/16, 2017/2018.",
+    "name": "Arkitektur, baskurs D (åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/17, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHF15&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHF05&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.ateljeerna.lth.se/utbildning/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182814.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175629.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1121,30 +1096,30 @@
     "id": 19
   },
   {
-    "code": "ATHA10",
+    "code": "ATHA25",
     "credits": 7.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitekturens teori och historia II (Åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges läsåret 2015/16, 2017/2018.",
+    "name": "Arkitekturens teori och historia IV (Åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges 2016/17, 2018/2019.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA25.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA25.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA10&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA25&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182825.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175640.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1156,8 +1131,8 @@
     "sp_details": [
       {
         "3": {
-          "Föreläsningar:": 18,
-          "Övningar:": 12,
+          "Föreläsningar:": 14,
+          "Övningar:": 14,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -1165,8 +1140,8 @@
       },
       {
         "4": {
-          "Föreläsningar:": 18,
-          "Övningar:": 12,
+          "Föreläsningar:": 14,
+          "Övningar:": 14,
           "Laborationer:": 0,
           "Handledd projekttid:": 1,
           "Självstudietid:": 0
@@ -1183,25 +1158,25 @@
     "id": 20
   },
   {
-    "code": "AAHA25",
+    "code": "AAHA05",
     "credits": 9.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitektur, baskurs C (åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/17.",
+    "name": "Arkitektur, baskurs A (åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA25&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHA05&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
@@ -1211,7 +1186,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175627.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161218.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1232,25 +1207,25 @@
     "id": 21
   },
   {
-    "code": "AAHF05",
+    "code": "AAHF15",
     "credits": 18.0,
     "cycle": "G2",
     "language": "S",
-    "name": "Arkitektur, baskurs D (åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/17.",
+    "name": "Arkitektur, baskurs B (åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF15.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF15.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHF05&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHF15&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
@@ -1260,7 +1235,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175629.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182814.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1281,30 +1256,30 @@
     "id": 22
   },
   {
-    "code": "ATHA25",
+    "code": "ATHA10",
     "credits": 7.0,
     "cycle": "G1",
     "language": "S",
-    "name": "Arkitekturens teori och historia IV (Åk 2)",
-    "footnote": "Kursen ges vartannat läsår och ges nästa gång 2016/17.",
+    "name": "Arkitekturens teori och historia II (Åk 2)",
+    "footnote": "Kursen ges vartannat läsår och ges nästa gång läsåret 2017/2018.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHA10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHA10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA25&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ATHA10&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175640.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182825.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1333,12 +1308,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBF05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBF05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1348,7 +1323,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161319.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161319.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1385,12 +1360,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHF01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHF01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1400,7 +1375,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175641.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175641.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1447,12 +1422,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1462,7 +1437,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161229.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161229.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1499,12 +1474,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1514,7 +1489,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175624.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175624.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1551,12 +1526,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1566,7 +1541,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161230.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161230.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1603,12 +1578,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/VBEA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/VBEA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/VBEA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/VBEA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1623,7 +1598,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162033.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,162033.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1660,12 +1635,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AADA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AADA25.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AADA25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AADA25.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1675,7 +1650,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175625.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175625.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1712,12 +1687,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ATHF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ATHF05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ATHF05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ATHF05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1727,7 +1702,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175642.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,175642.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1739,10 +1714,10 @@
     "sp_details": [
       {
         "3": {
-          "Föreläsningar:": 14,
-          "Övningar:": 28,
+          "Föreläsningar:": 18,
+          "Övningar:": 18,
           "Laborationer:": 0,
-          "Handledd projekttid:": 2,
+          "Handledd projekttid:": 1,
           "Självstudietid:": 0
         }
       },
@@ -1774,12 +1749,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF35.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF35.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF35.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF35.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1789,7 +1764,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182818.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182818.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1801,7 +1776,7 @@
     "sp_details": [
       {
         "3": {
-          "Föreläsningar:": 4,
+          "Föreläsningar:": 0,
           "Övningar:": 0,
           "Laborationer:": 0,
           "Handledd projekttid:": 0,
@@ -1813,7 +1788,7 @@
           "Föreläsningar:": 6,
           "Övningar:": 20,
           "Laborationer:": 0,
-          "Handledd projekttid:": 1,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       }
@@ -1836,12 +1811,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF25.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF25.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1851,7 +1826,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182816.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182816.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1898,12 +1873,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF30.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF30.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF30.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF30.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1913,7 +1888,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182817.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182817.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -1960,12 +1935,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHF20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHF20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHF20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHF20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -1975,7 +1950,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182815.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182815.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2014,140 +1989,6 @@
     "id": 35
   },
   {
-    "code": "GEMA20",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "E",
-    "name": "Engelska för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i \r\nexamensfordringarna fr o m  kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA20.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA20.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA20&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.sol.lu.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161732.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      1,
-      2
-    ],
-    "sp_details": [
-      {
-        "1": {
-          "Föreläsningar:": 30,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "2": {
-          "Föreläsningar:": 20,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 36
-  },
-  {
-    "code": "GEMA60",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Juridik för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA60.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA60.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA60&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.har.lu.se/kurser/gema60",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161739.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      1,
-      2
-    ],
-    "sp_details": [
-      {
-        "1": {
-          "Föreläsningar:": 25,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "2": {
-          "Föreläsningar:": 25,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 37
-  },
-  {
     "code": "AFO025",
     "credits": 3.0,
     "cycle": "G2",
@@ -2156,12 +1997,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AFO025.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AFO025.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AFO025.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AFO025.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2171,7 +2012,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161291.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161291.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2207,404 +2048,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 38
-  },
-  {
-    "code": "GEMA25",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Tyska för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA25.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA25.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA25&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.tyska.lu.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161733.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      1,
-      2
-    ],
-    "sp_details": [
-      {
-        "1": {
-          "Föreläsningar:": 0,
-          "Övningar:": 40,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "2": {
-          "Föreläsningar:": 0,
-          "Övningar:": 40,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 39
-  },
-  {
-    "code": "GEMA20",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "E",
-    "name": "Engelska för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i \r\nexamensfordringarna fr o m  kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA20.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA20.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA20&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.sol.lu.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161732.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 30,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 20,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 40
-  },
-  {
-    "code": "GEMA01",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Franska för tekniker: språk, kultur och samhällsliv, grundkurs",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA01.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA01.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA01&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.sol.lu.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161731.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 0,
-          "Övningar:": 26,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 0,
-          "Övningar:": 26,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 41
-  },
-  {
-    "code": "GEMA60",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Juridik för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA60.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA60.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA60&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.har.lu.se/kurser/gema60",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161739.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 25,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 25,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 42
-  },
-  {
-    "code": "GEMA65",
-    "credits": 7.5,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Kinesiska för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA65.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA65.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA65&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161740.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 0,
-          "Övningar:": 20,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 0,
-          "Övningar:": 20,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 43
-  },
-  {
-    "code": "GEMA55",
-    "credits": 6.0,
-    "cycle": "G1",
-    "language": "S",
-    "name": "Medicin för tekniker",
-    "footnote": "Kursen ges vartannat läsår och ges 2015/16, 2017/18.\r\nLTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA55.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA55.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA55&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.bme.lth.se/utbildning/kurser/medicin_foer_tekniker/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161738.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 36,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 36,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 0,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 44
+    "id": 36
   },
   {
     "code": "EITA05",
@@ -2615,12 +2059,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/EITA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/EITA05.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/EITA05.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/EITA05.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2630,12 +2074,12 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.eit.lth.se/kurs/gema50",
+        "url": "http://www.eit.lth.se/kurs/eita05",
         "type": "W",
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197631.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197631.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2671,7 +2115,64 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 45
+    "id": 37
+  },
+  {
+    "code": "AEBF20",
+    "credits": 7.5,
+    "cycle": "G2",
+    "language": "E",
+    "name": "Byggnadsintegrerade solenergisystem",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AEBF20.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AEBF20.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AEBF20&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.ebd.lth.se/master",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,182820.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 18,
+          "Övningar:": 18,
+          "Laborationer:": 10,
+          "Handledd projekttid:": 1,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 38
   },
   {
     "code": "AAH150",
@@ -2682,12 +2183,12 @@
     "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAH150.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAH150.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAH150.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAH150.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2697,7 +2198,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2743,7 +2244,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 46
+    "id": 39
   },
   {
     "code": "AAKN20",
@@ -2754,12 +2255,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAKN20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAKN20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAKN20.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAKN20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2769,7 +2270,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161248.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161248.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2805,7 +2306,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 47
+    "id": 40
   },
   {
     "code": "AAHN15",
@@ -2816,12 +2317,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN15.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN15.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN15.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2831,7 +2332,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161236.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161236.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2867,7 +2368,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 48
+    "id": 41
   },
   {
     "code": "AAHN02",
@@ -2878,12 +2379,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN02.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN02.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN02.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN02.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2893,7 +2394,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161232.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161232.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2929,7 +2430,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 49
+    "id": 42
   },
   {
     "code": "AAHN25",
@@ -2940,12 +2441,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN25.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN25.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -2955,7 +2456,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197620.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197620.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -2991,7 +2492,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 50
+    "id": 43
   },
   {
     "code": "ABVN16",
@@ -3002,12 +2503,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABVN16.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABVN16.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABVN16.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABVN16.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3017,12 +2518,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.bv.lth.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161278.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161278.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3058,7 +2554,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 51
+    "id": 44
   },
   {
     "code": "ABVN11",
@@ -3069,12 +2565,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABVN11.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABVN11.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABVN11.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABVN11.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3084,12 +2580,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.bv.lth.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161276.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161276.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3125,7 +2616,69 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 52
+    "id": 45
+  },
+  {
+    "code": "AAMN01",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Mänskliga miljöramar – byggnad/stad",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAMN01.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAMN01.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAMN01&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161252.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 10,
+          "Övningar:": 30,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 10,
+          "Övningar:": 30,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 46
   },
   {
     "code": "ABFF01",
@@ -3136,12 +2689,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABFF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABFF01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABFF01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABFF01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3156,7 +2709,7 @@
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161263.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161263.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3192,7 +2745,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 53
+    "id": 47
   },
   {
     "code": "ASEN01",
@@ -3203,12 +2756,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASEN01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASEN01.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASEN01.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASEN01.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3218,7 +2771,7 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197621.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197621.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3254,7 +2807,7 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 54
+    "id": 48
   },
   {
     "code": "ASEN10",
@@ -3265,12 +2818,12 @@
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASEN10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASEN10.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASEN10.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASEN10.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3280,7 +2833,379 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197623.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197623.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 49
+  },
+  {
+    "code": "ASBN02",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E",
+    "name": "Stadsåterbruk",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN02.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN02.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN02&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161324.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 15,
+          "Övningar:": 100,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 5,
+          "Övningar:": 70,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 7,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 50
+  },
+  {
+    "code": "ASBN06",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Stadsåterbruk - teori och metod",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN06.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN06.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN06&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161326.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 51
+  },
+  {
+    "code": "ASBN45",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Stadskvalitet och urban form",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN45.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN45.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN45&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161340.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 52
+  },
+  {
+    "code": "AFON25",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Teori i handling",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AFON25.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AFON25.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON25&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161313.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 53
+  },
+  {
+    "code": "ASBN31",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E",
+    "name": "Urban dynamik",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN31.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN31.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN31&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161335.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 15,
+          "Övningar:": 100,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 5,
+          "Övningar:": 70,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 7,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 54
+  },
+  {
+    "code": "ASBN41",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Urban dynamik - teorier och tendenser",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN41.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN41.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN41&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161339.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3319,30 +3244,30 @@
     "id": 55
   },
   {
-    "code": "ASBN02",
-    "credits": 15.0,
+    "code": "ASBN36",
+    "credits": 7.5,
     "cycle": "A",
     "language": "E",
-    "name": "Stadsåterbruk",
+    "name": "Urbana processer",
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN02.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN36.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN02.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN36.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN02&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN36&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161324.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161337.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3354,19 +3279,19 @@
     "sp_details": [
       {
         "1": {
-          "Föreläsningar:": 15,
-          "Övningar:": 100,
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
           "Laborationer:": 0,
-          "Handledd projekttid:": 3,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       },
       {
         "2": {
-          "Föreläsningar:": 5,
-          "Övningar:": 70,
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
           "Laborationer:": 0,
-          "Handledd projekttid:": 7,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       }
@@ -3381,54 +3306,64 @@
     "id": 56
   },
   {
-    "code": "ASBN06",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Stadsåterbruk - teori och metod",
-    "footnote": null,
+    "code": "AAH150",
+    "credits": 30.0,
+    "cycle": "G2",
+    "language": "S",
+    "name": "Arbetsplatsförlagd arkitektutbildning",
+    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN06.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAH150.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN06.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAH150.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN06&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161326.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      2,
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
+        "2": {
+          "Föreläsningar:": 4,
+          "Övningar:": 0,
           "Laborationer:": 0,
-          "Handledd projekttid:": 2,
+          "Handledd projekttid:": 6,
           "Självstudietid:": 0
         }
       },
       {
-        "2": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
+        "3": {
+          "Föreläsningar:": 0,
+          "Övningar:": 0,
           "Laborationer:": 0,
-          "Handledd projekttid:": 2,
+          "Handledd projekttid:": 6,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 0,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 6,
           "Självstudietid:": 0
         }
       }
@@ -3443,54 +3378,54 @@
     "id": 57
   },
   {
-    "code": "ASBN45",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Stadskvalitet och urban form",
-    "footnote": null,
+    "code": "AAH150",
+    "credits": 30.0,
+    "cycle": "G2",
+    "language": "S",
+    "name": "Arbetsplatsförlagd arkitektutbildning",
+    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN45.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAH150.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN45.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAH150.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN45&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161340.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
+        "3": {
+          "Föreläsningar:": 0,
+          "Övningar:": 4,
           "Laborationer:": 0,
-          "Handledd projekttid:": 3,
+          "Handledd projekttid:": 6,
           "Självstudietid:": 0
         }
       },
       {
-        "2": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
+        "4": {
+          "Föreläsningar:": 0,
+          "Övningar:": 0,
           "Laborationer:": 0,
-          "Handledd projekttid:": 3,
+          "Handledd projekttid:": 6,
           "Självstudietid:": 0
         }
       }
@@ -3505,41 +3440,46 @@
     "id": 58
   },
   {
-    "code": "AFON25",
+    "code": "ABVN20",
     "credits": 7.5,
     "cycle": "A",
     "language": "E1",
-    "name": "Teori i handling",
+    "name": "Arkitektur i material och detalj II",
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AFON25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABVN20.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AFON25.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABVN20.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON25&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN20&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161313.183",
+        "url": "http://www.bv.lth.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161279.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
+        "3": {
           "Föreläsningar:": 10,
           "Övningar:": 18,
           "Laborationer:": 0,
@@ -3548,11 +3488,11 @@
         }
       },
       {
-        "2": {
+        "4": {
           "Föreläsningar:": 10,
-          "Övningar:": 17,
+          "Övningar:": 18,
           "Laborationer:": 0,
-          "Handledd projekttid:": 3,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       }
@@ -3567,54 +3507,54 @@
     "id": 59
   },
   {
-    "code": "ASBN31",
-    "credits": 15.0,
+    "code": "AFON30",
+    "credits": 7.5,
     "cycle": "A",
-    "language": "E",
-    "name": "Urban dynamik",
+    "language": "E1",
+    "name": "Arkitektur som temporala landskap",
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN31.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AFON30.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN31.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AFON30.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN31&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON30&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161335.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161314.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
-          "Föreläsningar:": 15,
-          "Övningar:": 100,
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
           "Laborationer:": 0,
           "Handledd projekttid:": 3,
           "Självstudietid:": 0
         }
       },
       {
-        "2": {
-          "Föreläsningar:": 5,
-          "Övningar:": 70,
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
           "Laborationer:": 0,
-          "Handledd projekttid:": 7,
+          "Handledd projekttid:": 2,
           "Självstudietid:": 0
         }
       }
@@ -3629,50 +3569,50 @@
     "id": 60
   },
   {
-    "code": "ASBN41",
+    "code": "AAHN15",
     "credits": 7.5,
     "cycle": "A",
     "language": "E",
-    "name": "Urban dynamik - teorier och tendenser",
+    "name": "Arkitekturens kreativa verktyg I",
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN41.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN15.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN41.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN15.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN41&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN15&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161339.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161236.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
+        "3": {
           "Föreläsningar:": 10,
-          "Övningar:": 18,
+          "Övningar:": 17,
           "Laborationer:": 0,
-          "Handledd projekttid:": 2,
+          "Handledd projekttid:": 3,
           "Självstudietid:": 0
         }
       },
       {
-        "2": {
+        "4": {
           "Föreläsningar:": 10,
           "Övningar:": 18,
           "Laborationer:": 0,
@@ -3691,41 +3631,165 @@
     "id": 61
   },
   {
-    "code": "ASBN36",
-    "credits": 7.5,
+    "code": "AAHN06",
+    "credits": 15.0,
     "cycle": "A",
     "language": "E",
-    "name": "Urbana processer",
+    "name": "Avancerad arkitektonisk gestaltning II",
     "footnote": null,
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN36.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN06.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN36.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN06.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN36&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN06&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161337.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161234.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      1,
-      2
+      3,
+      4
     ],
     "sp_details": [
       {
-        "1": {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 85,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 85,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 62
+  },
+  {
+    "code": "ASBN16",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E",
+    "name": "Det nya stadslandskapet",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN16.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN16.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN16&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161330.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 15,
+          "Övningar:": 100,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 5,
+          "Övningar:": 70,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 7,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 63
+  },
+  {
+    "code": "ASBN11",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Det nya stadslandskapet - teori och metod",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN11.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN11.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN11&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161328.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
           "Föreläsningar:": 10,
           "Övningar:": 18,
           "Laborationer:": 0,
@@ -3734,7 +3798,7 @@
         }
       },
       {
-        "2": {
+        "4": {
           "Föreläsningar:": 10,
           "Övningar:": 18,
           "Laborationer:": 0,
@@ -3750,7 +3814,1173 @@
         "fullname": "Valfria kurser - A"
       }
     ],
-    "id": 62
+    "id": 64
+  },
+  {
+    "code": "AAHN10",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Integrerad design: Arkitektur - konstruktion",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAHN10.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAHN10.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN10&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161235.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 8,
+          "Övningar:": 30,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 8,
+          "Övningar:": 30,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 65
+  },
+  {
+    "code": "AFON20",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Interiör arkitektur och möbler",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AFON20.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AFON20.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON20&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161312.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 20,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 20,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 66
+  },
+  {
+    "code": "ABAN15",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Klimatsmart arkitektur och urban design",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABAN15.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABAN15.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN15&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.hdm.lth.se/education/undergraduate_courses/aban15_climate_smart_architecture/",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161260.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 15,
+          "Övningar:": 13,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 15,
+          "Övningar:": 13,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 67
+  },
+  {
+    "code": "ASBN26",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E",
+    "name": "Landskapsarkitektur och trädgård",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASBN26.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASBN26.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN26&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161333.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 17,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 3,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 68
+  },
+  {
+    "code": "ABVN02",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Modernismens arkitektur - förnyelse",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABVN02.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABVN02.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN02&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.bv.lth.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161272.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 75,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 75,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 69
+  },
+  {
+    "code": "ABVN06",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Modernismens arkitektur - förnyelse, teoridel",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABVN06.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABVN06.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN06&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.bv.lth.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161274.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 14,
+          "Övningar:": 35,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 1,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 14,
+          "Övningar:": 35,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 1,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 70
+  },
+  {
+    "code": "ASEN05",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E",
+    "name": "Spatiala experiment II",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASEN05.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASEN05.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASEN05&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197622.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 100,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 75,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 71
+  },
+  {
+    "code": "ASEN15",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Spatiala experiment II, teori",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ASEN15.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ASEN15.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASEN15&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,219103.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 10,
+          "Övningar:": 18,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 72
+  },
+  {
+    "code": "ABAN11",
+    "credits": 15.0,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Urban Shelter",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABAN11.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABAN11.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN11&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.hdm.lth.se/education/undergraduate_courses",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161259.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 20,
+          "Övningar:": 100,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 20,
+          "Övningar:": 40,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 5,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 73
+  },
+  {
+    "code": "ABAN06",
+    "credits": 7.5,
+    "cycle": "A",
+    "language": "E1",
+    "name": "Urban Shelter, teori",
+    "footnote": null,
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/ABAN06.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/ABAN06.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN06&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.hdm.lth.se/education/undergraduate_courses",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161257.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 15,
+          "Övningar:": 14,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 15,
+          "Övningar:": 14,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 2,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 74
+  },
+  {
+    "code": "AAH150",
+    "credits": 30.0,
+    "cycle": "G2",
+    "language": "S",
+    "name": "Arbetsplatsförlagd arkitektutbildning",
+    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/AAH150.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/AAH150.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      4
+    ],
+    "sp_details": [
+      {
+        "4": {
+          "Föreläsningar:": 0,
+          "Övningar:": 4,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 6,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Valfria kurser - A"
+      }
+    ],
+    "id": 75
+  },
+  {
+    "code": "GEMA20",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "E",
+    "name": "Engelska för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA20.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA20.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA20&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.sol.lu.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161732.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 30,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 20,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 76
+  },
+  {
+    "code": "GEMA60",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "S",
+    "name": "Juridik för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA60.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA60.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA60&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.har.lu.se/kurser/gema60",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161739.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 25,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 25,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 77
+  },
+  {
+    "code": "GEMA25",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "S",
+    "name": "Tyska för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA25.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA25.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA25&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.tyska.lu.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161733.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      1,
+      2
+    ],
+    "sp_details": [
+      {
+        "1": {
+          "Föreläsningar:": 0,
+          "Övningar:": 40,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "2": {
+          "Föreläsningar:": 0,
+          "Övningar:": 40,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 78
+  },
+  {
+    "code": "GEMA20",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "E",
+    "name": "Engelska för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA20.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA20.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA20&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.sol.lu.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161732.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 30,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 20,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 79
+  },
+  {
+    "code": "GEMA01",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "S",
+    "name": "Franska för tekniker: språk, kultur och samhällsliv, grundkurs",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA01.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA01.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA01&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.sol.lu.se",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161731.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 0,
+          "Övningar:": 26,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 0,
+          "Övningar:": 26,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 80
+  },
+  {
+    "code": "GEMA60",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "S",
+    "name": "Juridik för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA60.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA60.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA60&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.har.lu.se/kurser/gema60",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161739.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 25,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 25,
+          "Övningar:": 0,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 81
+  },
+  {
+    "code": "GEMA65",
+    "credits": 7.5,
+    "cycle": "G1",
+    "language": "S",
+    "name": "Kinesiska för tekniker",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
+    "links": [
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA65.html",
+        "type": "KS",
+        "description": "Kursplan på svenska"
+      },
+      {
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA65.html",
+        "type": "KE",
+        "description": "Kursplan på engelska"
+      },
+      {
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA65&lang=sv",
+        "type": "U",
+        "description": "Arkiv med kursutvärderingar"
+      },
+      {
+        "url": "http://www.sol.lu.se/kinesiska/%20",
+        "type": "W",
+        "description": "Kurswebbsida"
+      },
+      {
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161740.183",
+        "type": "T",
+        "description": "Tentamensschema"
+      }
+    ],
+    "sp": [
+      3,
+      4
+    ],
+    "sp_details": [
+      {
+        "3": {
+          "Föreläsningar:": 0,
+          "Övningar:": 20,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      },
+      {
+        "4": {
+          "Föreläsningar:": 0,
+          "Övningar:": 20,
+          "Laborationer:": 0,
+          "Handledd projekttid:": 0,
+          "Självstudietid:": 0
+        }
+      }
+    ],
+    "on_hold": false,
+    "specializations": [
+      {
+        "shortname": "V",
+        "fullname": "Externt valfria kurser - A"
+      }
+    ],
+    "id": 82
   },
   {
     "code": "GEMA70",
@@ -3758,15 +4988,15 @@
     "cycle": "G1",
     "language": "S",
     "name": "Japanska för tekniker",
-    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i \r\nexamensfordringarna fr o m  kull H11 och senare.",
+    "footnote": "LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/GEMA70.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA70.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/GEMA70.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA70.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
@@ -3776,12 +5006,12 @@
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "http://www.sol.lu.se/",
+        "url": "http://www.sol.lu.se/japanska",
         "type": "W",
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161741.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161741.183",
         "type": "T",
         "description": "Tentamensschema"
       }
@@ -3824,1155 +5054,58 @@
     "specializations": [
       {
         "shortname": "V",
-        "fullname": "Valfria kurser - A"
+        "fullname": "Externt valfria kurser - A"
       }
     ],
-    "id": 63
+    "id": 83
   },
   {
-    "code": "AAH150",
-    "credits": 30.0,
-    "cycle": "G2",
+    "code": "GEMA55",
+    "credits": 6.0,
+    "cycle": "G1",
     "language": "S",
-    "name": "Arbetsplatsförlagd arkitektutbildning",
-    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
+    "name": "Medicin för tekniker",
+    "footnote": "Kursen ges vartannat läsår och ges 2015/16, 2017/18. LTH-gemensamma kurser (GEM-kurser) räknas som externt valfri kurs i examensfordringarna fr o m kull H11 och senare.",
     "links": [
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAH150.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17/GEMA55.html",
         "type": "KS",
         "description": "Kursplan på svenska"
       },
       {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAH150.html",
+        "url": "http://kurser.lth.se/kursplaner/16_17%20eng/GEMA55.html",
         "type": "KE",
         "description": "Kursplan på engelska"
       },
       {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
+        "url": "http://www.ceq.lth.se/rapporter/?kurskod=GEMA55&lang=sv",
         "type": "U",
         "description": "Arkiv med kursutvärderingar"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      2,
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "2": {
-          "Föreläsningar:": 0,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "3": {
-          "Föreläsningar:": 4,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 0,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 64
-  },
-  {
-    "code": "AAH150",
-    "credits": 30.0,
-    "cycle": "G2",
-    "language": "S",
-    "name": "Arbetsplatsförlagd arkitektutbildning",
-    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAH150.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAH150.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 0,
-          "Övningar:": 0,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 0,
-          "Övningar:": 4,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 65
-  },
-  {
-    "code": "ABVN20",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Arkitektur i material och detalj II",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABVN20.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABVN20.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN20&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.bv.lth.se",
+        "url": "http://www.bme.lth.se/utbildning/kurser/medicin_foer_tekniker/",
         "type": "W",
         "description": "Kurswebbsida"
       },
       {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161279.183",
+        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20160828.x,20170903.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161738.183",
         "type": "T",
         "description": "Tentamensschema"
       }
     ],
     "sp": [
-      3,
-      4
+
     ],
     "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
+
     ],
-    "on_hold": false,
+    "on_hold": true,
     "specializations": [
       {
         "shortname": "V",
-        "fullname": "Valfria kurser - A"
+        "fullname": "Externt valfria kurser - A"
       }
     ],
-    "id": 66
-  },
-  {
-    "code": "AFON30",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Arkitektur som temporala landskap",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AFON30.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AFON30.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON30&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161314.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 67
-  },
-  {
-    "code": "AAHN15",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Arkitekturens kreativa verktyg I",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN15.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN15.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN15&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161236.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 68
-  },
-  {
-    "code": "AAHN06",
-    "credits": 15.0,
-    "cycle": "A",
-    "language": "E",
-    "name": "Avancerad arkitektonisk gestaltning II",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN06.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN06.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN06&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161234.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 85,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 85,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 69
-  },
-  {
-    "code": "ASBN16",
-    "credits": 15.0,
-    "cycle": "A",
-    "language": "E",
-    "name": "Det nya stadslandskapet",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN16.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN16.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN16&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161330.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 15,
-          "Övningar:": 100,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 5,
-          "Övningar:": 70,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 7,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 70
-  },
-  {
-    "code": "ASBN11",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Det nya stadslandskapet - teori och metod",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN11.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN11.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN11&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161328.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 18,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 71
-  },
-  {
-    "code": "AAHN10",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Integrerad design: Arkitektur - konstruktion",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAHN10.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAHN10.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAHN10&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161235.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 8,
-          "Övningar:": 30,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 8,
-          "Övningar:": 30,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 72
-  },
-  {
-    "code": "AFON20",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Interiör arkitektur och möbler",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AFON20.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AFON20.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AFON20&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161312.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 20,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 20,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 73
-  },
-  {
-    "code": "ABAN15",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Klimatsmart arkitektur och urban design",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABAN15.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABAN15.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN15&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.hdm.lth.se/education/undergraduate_courses/aban15_climate_smart_architecture/",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161260.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 15,
-          "Övningar:": 13,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 15,
-          "Övningar:": 13,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 74
-  },
-  {
-    "code": "ASBN26",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E",
-    "name": "Landskapsarkitektur och trädgård",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASBN26.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASBN26.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASBN26&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161333.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 17,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 3,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 75
-  },
-  {
-    "code": "ABVN02",
-    "credits": 15.0,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Modernismens arkitektur - förnyelse",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABVN02.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABVN02.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN02&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.bv.lth.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161272.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 75,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 75,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 76
-  },
-  {
-    "code": "ABVN06",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Modernismens arkitektur - förnyelse, teoridel",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABVN06.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABVN06.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABVN06&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.bv.lth.se",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161274.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 14,
-          "Övningar:": 35,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 1,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 14,
-          "Övningar:": 35,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 1,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 77
-  },
-  {
-    "code": "ASEN05",
-    "credits": 15.0,
-    "cycle": "A",
-    "language": "E",
-    "name": "Spatiala experiment II",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ASEN05.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ASEN05.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ASEN05&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,197622.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 10,
-          "Övningar:": 100,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 10,
-          "Övningar:": 75,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 78
-  },
-  {
-    "code": "ABAN11",
-    "credits": 15.0,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Urban Shelter",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABAN11.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABAN11.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN11&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.hdm.lth.se/education/undergraduate_courses",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161259.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 20,
-          "Övningar:": 100,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 20,
-          "Övningar:": 40,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 5,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 79
-  },
-  {
-    "code": "ABAN06",
-    "credits": 7.5,
-    "cycle": "A",
-    "language": "E1",
-    "name": "Urban Shelter, teori",
-    "footnote": null,
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/ABAN06.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/ABAN06.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=ABAN06&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "http://www.hdm.lth.se/education/undergraduate_courses",
-        "type": "W",
-        "description": "Kurswebbsida"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161257.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      3,
-      4
-    ],
-    "sp_details": [
-      {
-        "3": {
-          "Föreläsningar:": 15,
-          "Övningar:": 14,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      },
-      {
-        "4": {
-          "Föreläsningar:": 15,
-          "Övningar:": 14,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 2,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 80
-  },
-  {
-    "code": "AAH150",
-    "credits": 30.0,
-    "cycle": "G2",
-    "language": "S",
-    "name": "Arbetsplatsförlagd arkitektutbildning",
-    "footnote": "Kursen kan påbörjas när som helst under året. 4 föreläsningstimmar, 12 handledningstimmar och 784 självstudietimmar ingår. Särskilt ansökningsförfarande.",
-    "links": [
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16/AAH150.html",
-        "type": "KS",
-        "description": "Kursplan på svenska"
-      },
-      {
-        "url": "http://kurser.lth.se/kursplaner/15_16%20eng/AAH150.html",
-        "type": "KE",
-        "description": "Kursplan på engelska"
-      },
-      {
-        "url": "http://www.ceq.lth.se/rapporter/?kurskod=AAH150&lang=sv",
-        "type": "U",
-        "description": "Arkiv med kursutvärderingar"
-      },
-      {
-        "url": "https://se.timeedit.net/web/lu/db1/timeedit/p/lth1/r.html?sid=1007&h=t&ox=0&types=0&fe=0&clo=0&info=f&mu=t&cl=200&p=20150831.x,20160827.x&objects=159141.200,159142.200,159143.200,159170.200,159188.200,159131.200,159146.200,159186.200,161216.183",
-        "type": "T",
-        "description": "Tentamensschema"
-      }
-    ],
-    "sp": [
-      4
-    ],
-    "sp_details": [
-      {
-        "4": {
-          "Föreläsningar:": 0,
-          "Övningar:": 4,
-          "Laborationer:": 0,
-          "Handledd projekttid:": 6,
-          "Självstudietid:": 0
-        }
-      }
-    ],
-    "on_hold": false,
-    "specializations": [
-      {
-        "shortname": "V",
-        "fullname": "Valfria kurser - A"
-      }
-    ],
-    "id": 81
+    "id": 84
   }
 ]
