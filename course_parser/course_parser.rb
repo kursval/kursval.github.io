@@ -115,6 +115,10 @@ def parse_all_courses(html_doc)
 	node_and_specialization.each do |node,specialization|
 		type = get_course_type(specialization)
 		break if type == "degree project"
+		break if not type
+    print("Specialisation: ")
+    print(specialization)
+    print("\n")
 		courses = node.xpath("//tr")
 		courses.shift
 
@@ -211,12 +215,17 @@ def get_course_type(specialization)
 		"master"
 	when /^Valfria/
 		"elective"
+	when /^Externt valfria/
+    # TODO: Not sure if this should count simply as an elective
+		"elective"
 	when /^Elective/
 		"elective"
 	when /^Degree\sProjects/
 		"degree project"
 	when /^Examensarbeten/
 		"degree project"
+  else
+    STDERR.puts("Unknown course type: " + name)
 	end
 end
 
