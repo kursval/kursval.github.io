@@ -1,5 +1,6 @@
 <select class="form-control" id="special-selector">
 	<option value="all">Alla inriktningar</option>
+	<option value="opt">Alla ickeobligatoriska</option>
 	<% _.each(specializations, function (s) { %>
 		<option value="<%=s.shortname%>"><%=s.fullname%></option>
 	<% }); %>

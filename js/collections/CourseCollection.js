@@ -16,6 +16,21 @@ define([
 	        if (activeSpec === 'all' || activeSpec === '' || !activeSpec) {
 	            return list;   
 	        }
+
+			if (activeSpec === 'opt') {
+
+				var res = [];
+				res = _.filter(list,function(c) {
+					var specials = c.getSpecials();
+	                specials = _.map(specials, function (s) {
+	                    return s.shortname;
+	                });
+					return _.find(specials, function (s) {
+						return !s.includes('_');
+					});
+				});
+				return res;
+			}
 	        
 	        var res = [];
 	        res = _.filter(list, function (c) {
